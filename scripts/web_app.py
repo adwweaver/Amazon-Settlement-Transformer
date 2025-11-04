@@ -23,9 +23,17 @@ import json
 import os
 
 # Add scripts directory to path
-sys.path.insert(0, str(Path(__file__).parent))
+scripts_dir = Path(__file__).parent
+sys.path.insert(0, str(scripts_dir))
 
-from paths import get_sharepoint_base
+# Try to import paths, but handle if it doesn't exist (for Streamlit Cloud)
+try:
+    from paths import get_sharepoint_base
+except ImportError:
+    # Fallback for Streamlit Cloud or if paths module not available
+    def get_sharepoint_base():
+        """Fallback SharePoint base path"""
+        return Path.home() / 'sharepoint' / 'Amazon-ETL'
 
 # Page configuration
 st.set_page_config(
@@ -39,7 +47,13 @@ st.set_page_config(
 PROJECT_ROOT = Path(__file__).parent.parent
 SETTLEMENTS_FOLDER = PROJECT_ROOT / 'raw_data' / 'settlements'
 OUTPUTS_FOLDER = PROJECT_ROOT / 'outputs'
-SHAREPOINT_BASE = get_sharepoint_base()
+
+# SharePoint path - handle both local and Streamlit Cloud
+try:
+    SHAREPOINT_BASE = get_sharepoint_base()
+except Exception:
+    # Fallback for Streamlit Cloud
+    SHAREPOINT_BASE = PROJECT_ROOT / 'sharepoint' / 'Amazon-ETL'
 
 # Initialize session state
 if 'processing' not in st.session_state:
