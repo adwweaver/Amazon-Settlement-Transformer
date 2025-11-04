@@ -7,19 +7,15 @@ numpy>=1.24.0
 # Configuration management
 pyyaml>=6.0
 
-# Web UI
-streamlit>=1.28.0        # for web interface
+# Web UI (for Streamlit Cloud deployment)
+streamlit>=1.28.0
 
 # Additional utilities
-openpyxl>=3.1.0          # for Excel file support if needed later
+openpyxl>=3.1.0          # for Excel file support
 python-dateutil>=2.8.0   # for date parsing enhancements
 
-# File monitoring (for auto-processing)
-watchdog>=3.0.0          # for file watcher functionality
-
-# Windows notifications (optional)
-win10toast>=0.9          # for Windows 10 notifications (optional)
-
-# Development and testing (optional)
-pytest>=7.0.0            # for unit tests
-pytest-cov>=4.0.0        # for coverage reports
+# Note: The following packages are Windows-specific and not needed for Streamlit Cloud:
+# - watchdog>=3.0.0 (for local file watcher - not needed on Streamlit Cloud)
+# - win10toast>=0.9 (Windows-only - not compatible with Streamlit Cloud's Linux environment)
+# - pytest>=7.0.0 (testing only - not needed for runtime)
+# - pytest-cov>=4.0.0 (testing only - not needed for runtime)
