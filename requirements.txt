@@ -1,0 +1,25 @@
+# === Amazon Settlement ETL Pipeline Dependencies ===
+
+# Data processing and analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Configuration management
+pyyaml>=6.0
+
+# Web UI
+streamlit>=1.28.0        # for web interface
+
+# Additional utilities
+openpyxl>=3.1.0          # for Excel file support if needed later
+python-dateutil>=2.8.0   # for date parsing enhancements
+
+# File monitoring (for auto-processing)
+watchdog>=3.0.0          # for file watcher functionality
+
+# Windows notifications (optional)
+win10toast>=0.9          # for Windows 10 notifications (optional)
+
+# Development and testing (optional)
+pytest>=7.0.0            # for unit tests
+pytest-cov>=4.0.0        # for coverage reports
