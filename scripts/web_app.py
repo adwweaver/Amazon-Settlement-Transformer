@@ -186,7 +186,40 @@ def main():
                 })
             
             df = pd.DataFrame(file_data)
-            st.dataframe(df, use_container_width=True, hide_index=True)
+            
+            # Configure column display to prevent overflow
+            # Set proper widths and enable word wrapping
+            column_config = {
+                'File Name': st.column_config.TextColumn(
+                    'File Name',
+                    width='medium',
+                    help='Settlement file name'
+                ),
+                'Size': st.column_config.TextColumn(
+                    'Size',
+                    width='small',
+                    help='File size'
+                ),
+                'Modified': st.column_config.TextColumn(
+                    'Modified',
+                    width='medium',
+                    help='Last modification date'
+                ),
+                'Status': st.column_config.TextColumn(
+                    'Status',
+                    width='small',
+                    help='Processing status'
+                )
+            }
+            
+            # Display with proper formatting
+            st.dataframe(
+                df, 
+                use_container_width=True, 
+                hide_index=True,
+                column_config=column_config,
+                column_order=['File Name', 'Size', 'Modified', 'Status']
+            )
             
             # Process button
             col1, col2, col3 = st.columns([1, 1, 2])
