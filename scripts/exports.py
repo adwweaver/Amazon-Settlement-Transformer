@@ -2061,11 +2061,22 @@ class DataExporter:
                 cell.fill = header_fill
                 cell.alignment = header_alignment
             
-            # Increase header row height
+            # Increase header row height for wrapped text
             ws.row_dimensions[1].height = 30
             
             # Freeze header row
             ws.freeze_panes = 'A2'
+            
+            # Enable word wrapping for ALL cells (not just headers)
+            wrap_alignment = Alignment(wrap_text=True, vertical='top')
+            for row in ws.iter_rows(min_row=1, max_row=ws.max_row):
+                for cell in row:
+                    cell.alignment = wrap_alignment
+            
+            # Headers should be centered
+            header_alignment = Alignment(wrap_text=True, vertical='center', horizontal='center')
+            for cell in ws[1]:
+                cell.alignment = header_alignment
             
             # Apply conditional formatting to the data row (row 2)
             error_fill = PatternFill(start_color='FFE7E6', end_color='FFE7E6', fill_type='solid')  # Light red
