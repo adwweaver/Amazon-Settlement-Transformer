@@ -127,16 +127,21 @@ OUTPUTS_FOLDER = PROJECT_ROOT / 'outputs'
 MODULES_LOADED = False
 MODULE_ERROR = "Unknown error"
 
+# Try to import modules - use multiple strategies
+MODULES_LOADED = False
+import_error_primary = None
+
 try:
-    # First try: Direct import (should work if scripts_dir is in sys.path)
+    # Strategy 1: Direct import (should work if scripts_dir is in sys.path)
     from transform import DataTransformer
     from exports import DataExporter
     from validate_settlement import SettlementValidator
     import yaml
     MODULES_LOADED = True
 except ImportError as e:
-    # Second try: Use importlib with detected PROJECT_ROOT
-    MODULE_ERROR = f"Primary import failed: {e}"
+    import_error_primary = e
+    # Strategy 2: Use importlib with detected PROJECT_ROOT
+    MODULE_ERROR = f"Primary import failed: {import_error_primary}"
     try:
         import importlib.util
         
