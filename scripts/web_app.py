@@ -139,7 +139,7 @@ def process_files():
         # Setup logging (simplified for web app)
         import logging
         log_dir = PROJECT_ROOT / 'logs'
-        log_dir.mkdir(exist=True, exist_ok=True)
+        log_dir.mkdir(exist_ok=True)
         logging.basicConfig(
             level=getattr(logging, config.get('options', {}).get('log_level', 'INFO')),
             format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
