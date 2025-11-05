@@ -163,6 +163,14 @@ def process_files():
         
         st.info(f"✅ Processed {len(settlements_data)} settlement records")
         
+        # Get list of processed file names from the settlements folder
+        processed_file_names = set()
+        settlement_files = list(SETTLEMENTS_FOLDER.glob('*.txt'))
+        for file_path in settlement_files:
+            # Extract settlement ID from filename (filename is like "50011020300.txt")
+            # The settlement ID should match what's in the data
+            processed_file_names.add(file_path.name)
+        
         # Process invoices and payments (if needed)
         invoices_data = transformer.process_invoices()
         payments_data = transformer.process_payments()
@@ -196,7 +204,12 @@ def process_files():
         except Exception as e:
             st.warning(f"⚠️ Validation skipped: {e}")
         
+        # Mark all processed files as processed
+        for file_name in processed_file_names:
+            save_processed_file(file_name)
+        
         st.success("✅ Processing completed successfully!")
+        st.info(f"📝 Marked {len(processed_file_names)} file(s) as processed")
         return True
     
     except Exception as e:
