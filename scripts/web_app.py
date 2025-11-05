@@ -67,6 +67,44 @@ else:
 SETTLEMENTS_FOLDER = PROJECT_ROOT / 'raw_data' / 'settlements'
 OUTPUTS_FOLDER = PROJECT_ROOT / 'outputs'
 
+# Import processing modules at module level (better for Streamlit Cloud)
+try:
+    from transform import DataTransformer
+    from exports import DataExporter
+    from validate_settlement import SettlementValidator
+    import yaml
+    MODULES_LOADED = True
+except ImportError as e:
+    # Try loading via importlib for Streamlit Cloud
+    MODULES_LOADED = False
+    try:
+        import importlib.util
+        
+        transform_path = PROJECT_ROOT / 'scripts' / 'transform.py'
+        if transform_path.exists():
+            spec = importlib.util.spec_from_file_location("transform", transform_path)
+            transform_module = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(transform_module)
+            DataTransformer = transform_module.DataTransformer
+            
+            exports_path = PROJECT_ROOT / 'scripts' / 'exports.py'
+            spec = importlib.util.spec_from_file_location("exports", exports_path)
+            exports_module = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(exports_module)
+            DataExporter = exports_module.DataExporter
+            
+            validate_path = PROJECT_ROOT / 'scripts' / 'validate_settlement.py'
+            spec = importlib.util.spec_from_file_location("validate_settlement", validate_path)
+            validate_module = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(validate_module)
+            SettlementValidator = validate_module.SettlementValidator
+            
+            import yaml
+            MODULES_LOADED = True
+        except Exception as e2:
+            MODULES_LOADED = False
+            MODULE_ERROR = f"Primary: {e}, Secondary: {e2}"
+
 # SharePoint path - handle both local and Streamlit Cloud
 try:
     SHAREPOINT_BASE = get_sharepoint_base()
@@ -128,46 +166,15 @@ def process_files():
     st.session_state.processing = True
     
     try:
-        # Import processing modules directly (better for Streamlit Cloud)
-        # Try multiple import paths to handle different environments
-        try:
-            from transform import DataTransformer
-            from exports import DataExporter
-            from validate_settlement import SettlementValidator
-            import yaml
-        except ImportError as e1:
-            # Try importing from scripts subdirectory
-            try:
-                import importlib.util
-                transform_path = PROJECT_ROOT / 'scripts' / 'transform.py'
-                if transform_path.exists():
-                    spec = importlib.util.spec_from_file_location("transform", transform_path)
-                    transform_module = importlib.util.module_from_spec(spec)
-                    spec.loader.exec_module(transform_module)
-                    DataTransformer = transform_module.DataTransformer
-                    
-                    exports_path = PROJECT_ROOT / 'scripts' / 'exports.py'
-                    spec = importlib.util.spec_from_file_location("exports", exports_path)
-                    exports_module = importlib.util.module_from_spec(spec)
-                    spec.loader.exec_module(exports_module)
-                    DataExporter = exports_module.DataExporter
-                    
-                    validate_path = PROJECT_ROOT / 'scripts' / 'validate_settlement.py'
-                    spec = importlib.util.spec_from_file_location("validate_settlement", validate_path)
-                    validate_module = importlib.util.module_from_spec(spec)
-                    spec.loader.exec_module(validate_module)
-                    SettlementValidator = validate_module.SettlementValidator
-                    
-                    import yaml
-                else:
-                    raise ImportError(f"Module files not found. Error: {e1}")
-            except Exception as e2:
-                st.error(f"❌ Import error: {e1}. Secondary attempt failed: {e2}")
-                st.error(f"📁 Project root: {PROJECT_ROOT}")
-                st.error(f"📁 Scripts directory: {PROJECT_ROOT / 'scripts'}")
-                st.error(f"📁 Python path: {sys.path[:5]}")
-                st.session_state.processing = False
-                return False
+        # Check if modules were loaded successfully
+        if not MODULES_LOADED:
+            st.error(f"❌ Import error: Modules not loaded. {MODULE_ERROR}")
+            st.error(f"📁 Project root: {PROJECT_ROOT}")
+            st.error(f"📁 Scripts directory: {PROJECT_ROOT / 'scripts'}")
+            st.error(f"📁 Transform file exists: {(PROJECT_ROOT / 'scripts' / 'transform.py').exists()}")
+            st.error(f"📁 Python path: {sys.path[:5]}")
+            st.session_state.processing = False
+            return False
         
         # Load config
         config_file = PROJECT_ROOT / 'config' / 'config.yaml'
