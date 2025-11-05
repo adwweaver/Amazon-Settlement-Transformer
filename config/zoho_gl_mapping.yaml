@@ -1,0 +1,34 @@
+# Zoho Books GL Account Mapping
+# Maps Amazon settlement GL accounts to Zoho Books Account IDs
+
+gl_account_mapping:
+  # Bank account for net Amazon deposits
+  "Current Account": "73985000000014751"
+  
+  # Clearing account for invoice offset
+  "Amazon.ca Clearing": "73985000000048001"
+  
+  # Revenue account
+  "Amazon.ca Revenue": "73985000000048007"
+  
+  # Expense accounts
+  "Amazon FBA Fulfillment Fees": "73985000000048023"
+  "Amazon Advertising Expense": "73985000000048035"
+  "Amazon FBA Storage Fees": "73985000000074001"  # Amazon Storage Expense
+  "Amazon Storage Expense": "73985000000074001"  # Alias for FBA Storage Fees
+  "Amazon FBA Inbound Freight": "73985000000058011"  # Amazon Inbound Freight Charges
+  "Amazon Inbound Freight Charges": "73985000000058011"  # Alias for same account
+  "Amazon Account Fees": "73985000000058003"  # Amazon Account Fees (other)
+  "Amazon Unclassified": "73985000000048011"  # Amazon.ca Selling Expenses (catch-all)
+  "Amazon Combined Tax Charged": "73985000000074499"  # Tax collected/charged
+
+# Tax accounts (if needed)
+tax_accounts:
+  "GST/HST Collected": "73985000000048041"  # GST/HST Collected - Amazon Facilitator
+  "GST/HST Remitted": "73985000000048045"  # GST/HST Remitted by Amazon (clearing)
+  "Amazon Combined Tax": "73985000000074499"  # Amazon Combined Tax Charged
+
+# Notes:
+# - Account IDs retrieved from Zoho Books Chart of Accounts
+# - Mapping covers all 8 GL accounts from settlement data
+# - "Amazon.ca Selling Expenses" used as catch-all for unclassified items

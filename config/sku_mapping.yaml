@@ -1,0 +1,14 @@
+# SKU Mapping Configuration
+# Maps Amazon SKUs to Zoho Books SKUs when they differ
+
+sku_mapping:
+  # Amazon SKU → Zoho SKU
+  "SALTT15-ALLT": "SALTT15-ULTA"  # 15oz All Toffee → Ultimate (incorrect in Amazon)
+  "SALTT30-ALLT": "SALTT30-ULTA"  # 30oz All Toffee → Ultimate (incorrect in Amazon)
+  "SALTT30-CRML": "SALTT30-VCHO"  # 30oz Caramel → Vanilla Chocolate (incorrect in Amazon)
+  # Will be fixed in Amazon as products are restocked
+  
+# Notes:
+# - If Amazon SKU not in mapping, uses Amazon SKU as-is
+# - Applied to invoices before posting to Zoho
+# - Keep this updated as new SKU discrepancies are found

@@ -1,0 +1,120 @@
+# === Configuration for Amazon Settlement ETL Pipeline ===
+
+# Folder paths
+paths:
+  raw_data: "./raw_data"
+  outputs: "./outputs"
+  logs: "./logs"
+
+# Input subfolders
+inputs:
+  settlements: "settlements"
+  invoices: "invoices"
+  payments: "payments"
+
+# Export filenames
+exports:
+  journal: "JournalExport.csv"
+  invoice: "InvoiceExport.csv"
+  payment: "PaymentExport.csv"
+  summary: "ETL_Summary_Report.csv"
+
+# Data processing options
+processing:
+  # File patterns to search for
+  file_patterns:
+    settlements: "*.txt"
+    invoices: "*.txt"
+    payments: "*.txt"
+  
+  # Column name normalization settings
+  column_normalization:
+    lowercase: true
+    replace_spaces_with_underscores: true
+    remove_special_chars: true
+    trim_whitespace: true
+  
+  # Data validation settings
+  validation:
+    check_required_columns: true
+    validate_numeric_amounts: true
+    validate_date_formats: true
+    remove_empty_rows: true
+
+# Business logic mappings
+business_rules:
+  # Key fields for data merging
+  merge_keys:
+    primary: "order_id"
+    secondary: "settlement_id"
+  
+  # Date column mappings
+  date_columns:
+    - "settlement_start_date"
+    - "settlement_end_date" 
+    - "deposit_date"
+    - "posted_date"
+  
+  # Amount column mappings
+  amount_columns:
+    - "total_amount"
+    - "shipment_fee_amount"
+    - "order_fee_amount"
+    - "item_related_fee_amount"
+    - "misc_fee_amount"
+    - "other_fee_amount"
+    - "direct_payment_amount"
+
+# Export formatting options
+export_formatting:
+  # CSV export settings
+  csv:
+    encoding: "utf-8-sig"    # UTF-8 with BOM for Excel compatibility
+    date_format: "%Y-%m-%d"
+    decimal_places: 2
+    na_representation: ""     # How to represent missing values
+  
+  # Column order preferences for exports
+  journal_columns:
+    - "settlement_id"
+    - "order_id"
+    - "transaction_type"
+    - "posted_date"
+    - "deposit_date"
+    - "total_amount"
+    - "currency"
+    - "marketplace_name"
+  
+  invoice_columns:
+    - "order_id"
+    - "merchant_order_id"
+    - "sku"
+    - "quantity_purchased"
+    - "price_amount"
+    - "item_related_fee_amount"
+  
+  payment_columns:
+    - "settlement_id"
+    - "deposit_date"
+    - "total_amount"
+    - "currency"
+    - "direct_payment_type"
+    - "direct_payment_amount"
+
+# General options
+options:
+  overwrite: true        # whether to overwrite existing output files
+  create_backups: false  # create backups of existing files before overwriting
+  log_level: "DEBUG"      # can be INFO, DEBUG, WARNING, ERROR
+  generate_summary: true # generate summary report after processing
+
+# Notification settings (optional)
+notifications:
+  enabled: true
+  smtp_server: smtp.office365.com
+  smtp_port: 587
+  username: ""  # your mailbox username
+  password: ""  # app password or secret
+  from: etl-bot@brackishco.ca
+  to:
+    - andrew@brackishco.ca

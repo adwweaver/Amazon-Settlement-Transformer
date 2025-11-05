@@ -1,0 +1,6 @@
+account_mapping: {}
+api_endpoint: https://books.zoho.com/api/v3
+auth_method: B
+connection_name: amz_remit_api
+data_center: US
+organization_id: '110001648299'
