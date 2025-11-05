@@ -59,7 +59,7 @@ st.set_page_config(
 # Project paths - handle both local and Streamlit Cloud
 # On Streamlit Cloud, try multiple possible paths
 # Start with script location (most reliable)
-script_dir = Path(__file__).parent
+script_dir = Path(__file__).resolve().parent  # Use absolute path
 possible_roots = [
     script_dir.parent,  # Local: scripts/ -> project root
     Path('/mount/src/amazon-settlement-transformer'),  # Streamlit lowercase
@@ -67,16 +67,24 @@ possible_roots = [
 ]
 
 # Find the actual project root by checking for scripts/transform.py
+# Use absolute paths to avoid relative path issues
 PROJECT_ROOT = None
 for root in possible_roots:
+    root = root.resolve() if root.is_absolute() else Path.cwd() / root
     test_file = root / 'scripts' / 'transform.py'
-    if test_file.exists():
-        PROJECT_ROOT = root
+    if test_file.exists() and test_file.is_file():
+        PROJECT_ROOT = root.resolve()
         break
 
-# Fallback to script parent if nothing found
+# Fallback: try script parent with absolute path
 if PROJECT_ROOT is None:
-    PROJECT_ROOT = script_dir.parent
+    candidate = script_dir.parent.resolve()
+    test_file = candidate / 'scripts' / 'transform.py'
+    if test_file.exists() and test_file.is_file():
+        PROJECT_ROOT = candidate
+    else:
+        # Last resort: use script parent anyway
+        PROJECT_ROOT = candidate
 
 SETTLEMENTS_FOLDER = PROJECT_ROOT / 'raw_data' / 'settlements'
 OUTPUTS_FOLDER = PROJECT_ROOT / 'outputs'
@@ -212,10 +220,20 @@ def process_files():
         # Check if modules were loaded successfully
         if not MODULES_LOADED:
             st.error(f"❌ Import error: Modules not loaded. {MODULE_ERROR}")
-            st.error(f"📁 Project root: {PROJECT_ROOT}")
-            st.error(f"📁 Scripts directory: {PROJECT_ROOT / 'scripts'}")
-            st.error(f"📁 Transform file exists: {(PROJECT_ROOT / 'scripts' / 'transform.py').exists()}")
+            st.error(f"📁 Project root: {PROJECT_ROOT} (absolute: {PROJECT_ROOT.resolve()})")
+            st.error(f"📁 Script file location: {Path(__file__).resolve()}")
+            st.error(f"📁 Current working directory: {Path.cwd()}")
+            st.error(f"📁 Scripts directory: {PROJECT_ROOT / 'scripts'} (exists: {(PROJECT_ROOT / 'scripts').exists()})")
+            transform_file = PROJECT_ROOT / 'scripts' / 'transform.py'
+            st.error(f"📁 Transform file: {transform_file} (exists: {transform_file.exists()}, absolute: {transform_file.resolve() if transform_file.exists() else 'N/A'})")
             st.error(f"📁 Python path: {sys.path[:5]}")
+            
+            # Try to find transform.py in any location
+            import os
+            for root, dirs, files in os.walk('/mount/src'):
+                if 'transform.py' in files:
+                    st.info(f"🔍 Found transform.py at: {os.path.join(root, 'transform.py')}")
+            
             st.session_state.processing = False
             return False
         
