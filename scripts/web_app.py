@@ -58,19 +58,29 @@ st.set_page_config(
 
 # Project paths - handle both local and Streamlit Cloud
 # On Streamlit Cloud, try multiple possible paths
-# Start with script location (most reliable)
-script_dir = Path(__file__).resolve().parent  # Use absolute path
+# Start with script location (most reliable) - always use absolute path
+_script_file = Path(__file__)
+script_dir = _script_file.resolve().parent if _script_file.is_absolute() else Path.cwd() / _script_file.parent
+
+# Get absolute paths for all possible roots
 possible_roots = [
-    script_dir.parent,  # Local: scripts/ -> project root
-    Path('/mount/src/amazon-settlement-transformer'),  # Streamlit lowercase
-    Path('/mount/src/Amazon-Settlement-Transformer'),  # Streamlit with capitals
+    script_dir.parent.resolve(),  # Local: scripts/ -> project root
+    Path('/mount/src/amazon-settlement-transformer').resolve(),  # Streamlit lowercase
+    Path('/mount/src/Amazon-Settlement-Transformer').resolve(),  # Streamlit with capitals
 ]
+
+# Also check current working directory
+if Path.cwd().exists():
+    cwd_root = Path.cwd().resolve()
+    if cwd_root not in possible_roots:
+        possible_roots.append(cwd_root)
 
 # Find the actual project root by checking for scripts/transform.py
 # Use absolute paths to avoid relative path issues
 PROJECT_ROOT = None
 for root in possible_roots:
-    root = root.resolve() if root.is_absolute() else Path.cwd() / root
+    if not root.exists():
+        continue
     test_file = root / 'scripts' / 'transform.py'
     if test_file.exists() and test_file.is_file():
         PROJECT_ROOT = root.resolve()
@@ -83,8 +93,11 @@ if PROJECT_ROOT is None:
     if test_file.exists() and test_file.is_file():
         PROJECT_ROOT = candidate
     else:
-        # Last resort: use script parent anyway
+        # Last resort: use script parent anyway (absolute path)
         PROJECT_ROOT = candidate
+
+# Ensure PROJECT_ROOT is always absolute
+PROJECT_ROOT = PROJECT_ROOT.resolve()
 
 SETTLEMENTS_FOLDER = PROJECT_ROOT / 'raw_data' / 'settlements'
 OUTPUTS_FOLDER = PROJECT_ROOT / 'outputs'
