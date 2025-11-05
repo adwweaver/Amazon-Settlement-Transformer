@@ -108,55 +108,81 @@ def get_settlement_files():
 
 
 def process_files():
-    """Process settlement files"""
+    """Process settlement files - process directly instead of subprocess for Streamlit Cloud compatibility"""
     if st.session_state.processing:
         return
     
     st.session_state.processing = True
     
     try:
-        # Find main.py - try multiple locations
-        main_py = PROJECT_ROOT / 'scripts' / 'main.py'
-        
-        # On Streamlit Cloud, verify the path
-        if not main_py.exists():
-            # Try relative to current file
-            main_py = Path(__file__).parent / 'main.py'
-        if not main_py.exists():
-            # Try root directory
-            main_py = PROJECT_ROOT / 'main.py'
-        
-        if not main_py.exists():
-            error_msg = f"❌ Error: main.py not found. Searched:\n"
-            error_msg += f"- {PROJECT_ROOT / 'scripts' / 'main.py'}\n"
-            error_msg += f"- {Path(__file__).parent / 'main.py'}\n"
-            error_msg += f"- {PROJECT_ROOT / 'main.py'}\n"
-            error_msg += f"Project root: {PROJECT_ROOT}"
-            st.error(error_msg)
+        # Import processing modules directly (better for Streamlit Cloud)
+        try:
+            from transform import DataTransformer
+            from exports import DataExporter
+            from validate_settlement import SettlementValidator
+            import yaml
+        except ImportError as e:
+            st.error(f"❌ Import error: {e}. Please check that all required modules are available.")
             st.session_state.processing = False
             return False
         
-        # Run ETL pipeline
-        result = subprocess.run(
-            [sys.executable, str(main_py)],
-            cwd=str(PROJECT_ROOT),
-            capture_output=True,
-            text=True,
-            timeout=600
+        # Load config
+        config_file = PROJECT_ROOT / 'config' / 'config.yaml'
+        if not config_file.exists():
+            st.error(f"❌ Config file not found: {config_file}")
+            st.session_state.processing = False
+            return False
+        
+        with open(config_file, 'r') as f:
+            config = yaml.safe_load(f)
+        
+        # Initialize transformer
+        transformer = DataTransformer(config)
+        
+        # Process settlements
+        st.info("📊 Processing settlement files...")
+        settlements_data = transformer.process_settlements()
+        
+        if settlements_data is None or settlements_data.empty:
+            st.warning("⚠️ No settlement files found to process")
+            st.session_state.processing = False
+            return False
+        
+        st.info(f"✅ Processed {len(settlements_data)} settlement records")
+        
+        # Process invoices and payments (if needed)
+        invoices_data = transformer.process_invoices()
+        payments_data = transformer.process_payments()
+        
+        # Merge and finalize
+        st.info("🔄 Merging and finalizing data...")
+        final_data = transformer.merge_and_finalize(
+            settlements_data,
+            invoices_data,
+            payments_data
         )
         
-        if result.returncode == 0:
-            st.success("✅ Processing completed successfully!")
-            return True
-        else:
-            st.error(f"❌ Processing failed: {result.stderr[:500]}")
-            return False
+        # Initialize exporter
+        exporter = DataExporter(config)
+        if hasattr(transformer, 'price_lookup_data'):
+            exporter.price_lookup_data = transformer.price_lookup_data
+        
+        # Generate exports
+        st.info("📄 Generating export files...")
+        exporter.generate_journal_export(final_data)
+        exporter.generate_invoice_export(final_data)
+        exporter.generate_payment_export(final_data)
+        exporter.generate_dashboard_summary(final_data)
+        
+        st.success("✅ Processing completed successfully!")
+        return True
     
-    except subprocess.TimeoutExpired:
-        st.error("⏱️ Processing timed out (took longer than 10 minutes)")
-        return False
     except Exception as e:
+        import traceback
+        error_details = traceback.format_exc()
         st.error(f"❌ Error: {str(e)}")
+        with st.expander("See error details"):
+            st.code(error_details)
         return False
     finally:
         st.session_state.processing = False
