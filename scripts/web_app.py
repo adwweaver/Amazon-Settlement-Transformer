@@ -44,11 +44,12 @@ st.set_page_config(
 )
 
 # Project paths - handle both local and Streamlit Cloud
-PROJECT_ROOT = Path(__file__).parent.parent
-
-# Check if we're on Streamlit Cloud (different path structure)
+# On Streamlit Cloud, files are at /mount/src/amazon-settlement-transformer
+# Locally, files are relative to the script location
 if Path('/mount/src/amazon-settlement-transformer').exists():
     PROJECT_ROOT = Path('/mount/src/amazon-settlement-transformer')
+else:
+    PROJECT_ROOT = Path(__file__).parent.parent
 
 SETTLEMENTS_FOLDER = PROJECT_ROOT / 'raw_data' / 'settlements'
 OUTPUTS_FOLDER = PROJECT_ROOT / 'outputs'
@@ -116,6 +117,8 @@ def process_files():
     try:
         # Find main.py - try multiple locations
         main_py = PROJECT_ROOT / 'scripts' / 'main.py'
+        
+        # On Streamlit Cloud, verify the path
         if not main_py.exists():
             # Try relative to current file
             main_py = Path(__file__).parent / 'main.py'
@@ -124,7 +127,12 @@ def process_files():
             main_py = PROJECT_ROOT / 'main.py'
         
         if not main_py.exists():
-            st.error("❌ Error: main.py not found. Please check the file structure.")
+            error_msg = f"❌ Error: main.py not found. Searched:\n"
+            error_msg += f"- {PROJECT_ROOT / 'scripts' / 'main.py'}\n"
+            error_msg += f"- {Path(__file__).parent / 'main.py'}\n"
+            error_msg += f"- {PROJECT_ROOT / 'main.py'}\n"
+            error_msg += f"Project root: {PROJECT_ROOT}"
+            st.error(error_msg)
             st.session_state.processing = False
             return False
         
