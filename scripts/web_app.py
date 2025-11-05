@@ -68,6 +68,9 @@ SETTLEMENTS_FOLDER = PROJECT_ROOT / 'raw_data' / 'settlements'
 OUTPUTS_FOLDER = PROJECT_ROOT / 'outputs'
 
 # Import processing modules at module level (better for Streamlit Cloud)
+MODULES_LOADED = False
+MODULE_ERROR = "Unknown error"
+
 try:
     from transform import DataTransformer
     from exports import DataExporter
@@ -76,7 +79,7 @@ try:
     MODULES_LOADED = True
 except ImportError as e:
     # Try loading via importlib for Streamlit Cloud
-    MODULES_LOADED = False
+    MODULE_ERROR = f"Primary import failed: {e}"
     try:
         import importlib.util
         
@@ -101,9 +104,11 @@ except ImportError as e:
             
             import yaml
             MODULES_LOADED = True
-        except Exception as e2:
-            MODULES_LOADED = False
-            MODULE_ERROR = f"Primary: {e}, Secondary: {e2}"
+            MODULE_ERROR = None
+        else:
+            MODULE_ERROR = f"Transform file not found at {transform_path}. {MODULE_ERROR}"
+    except Exception as e2:
+        MODULE_ERROR = f"{MODULE_ERROR}. Secondary attempt failed: {e2}"
 
 # SharePoint path - handle both local and Streamlit Cloud
 try:
