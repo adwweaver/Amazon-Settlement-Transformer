@@ -106,19 +106,40 @@ except ImportError as e:
     try:
         import importlib.util
         
-        # Try multiple possible locations
+        # Try multiple possible locations (use absolute paths)
         transform_paths = [
-            PROJECT_ROOT / 'scripts' / 'transform.py',
-            script_dir / 'transform.py',  # In case we're already in scripts/
+            (PROJECT_ROOT / 'scripts' / 'transform.py').resolve(),
+            (script_dir / 'transform.py').resolve(),  # In case we're already in scripts/
             Path('/mount/src/amazon-settlement-transformer') / 'scripts' / 'transform.py',
             Path('/mount/src/Amazon-Settlement-Transformer') / 'scripts' / 'transform.py',
         ]
         
+        # Also search for transform.py if not found in expected locations
         transform_path = None
         for path in transform_paths:
-            if path.exists():
+            if path.exists() and path.is_file():
                 transform_path = path
                 break
+        
+        # If still not found, search the mount directory
+        if transform_path is None:
+            import os
+            search_roots = [
+                '/mount/src',
+                str(PROJECT_ROOT.resolve()),
+                str(script_dir.resolve()),
+            ]
+            for search_root in search_roots:
+                if os.path.exists(search_root):
+                    for root, dirs, files in os.walk(search_root):
+                        if 'transform.py' in files:
+                            candidate = Path(root) / 'transform.py'
+                            # Verify it's in a scripts directory
+                            if 'scripts' in str(candidate):
+                                transform_path = candidate.resolve()
+                                break
+                    if transform_path:
+                        break
         
         if transform_path and transform_path.exists():
             # Load transform module
