@@ -57,12 +57,26 @@ st.set_page_config(
 )
 
 # Project paths - handle both local and Streamlit Cloud
-# On Streamlit Cloud, files are at /mount/src/amazon-settlement-transformer
-# Locally, files are relative to the script location
-if Path('/mount/src/amazon-settlement-transformer').exists():
-    PROJECT_ROOT = Path('/mount/src/amazon-settlement-transformer')
-else:
-    PROJECT_ROOT = Path(__file__).parent.parent
+# On Streamlit Cloud, try multiple possible paths
+# Start with script location (most reliable)
+script_dir = Path(__file__).parent
+possible_roots = [
+    script_dir.parent,  # Local: scripts/ -> project root
+    Path('/mount/src/amazon-settlement-transformer'),  # Streamlit lowercase
+    Path('/mount/src/Amazon-Settlement-Transformer'),  # Streamlit with capitals
+]
+
+# Find the actual project root by checking for scripts/transform.py
+PROJECT_ROOT = None
+for root in possible_roots:
+    test_file = root / 'scripts' / 'transform.py'
+    if test_file.exists():
+        PROJECT_ROOT = root
+        break
+
+# Fallback to script parent if nothing found
+if PROJECT_ROOT is None:
+    PROJECT_ROOT = script_dir.parent
 
 SETTLEMENTS_FOLDER = PROJECT_ROOT / 'raw_data' / 'settlements'
 OUTPUTS_FOLDER = PROJECT_ROOT / 'outputs'
@@ -72,41 +86,65 @@ MODULES_LOADED = False
 MODULE_ERROR = "Unknown error"
 
 try:
+    # First try: Direct import (should work if scripts_dir is in sys.path)
     from transform import DataTransformer
     from exports import DataExporter
     from validate_settlement import SettlementValidator
     import yaml
     MODULES_LOADED = True
 except ImportError as e:
-    # Try loading via importlib for Streamlit Cloud
+    # Second try: Use importlib with detected PROJECT_ROOT
     MODULE_ERROR = f"Primary import failed: {e}"
     try:
         import importlib.util
         
-        transform_path = PROJECT_ROOT / 'scripts' / 'transform.py'
-        if transform_path.exists():
+        # Try multiple possible locations
+        transform_paths = [
+            PROJECT_ROOT / 'scripts' / 'transform.py',
+            script_dir / 'transform.py',  # In case we're already in scripts/
+            Path('/mount/src/amazon-settlement-transformer') / 'scripts' / 'transform.py',
+            Path('/mount/src/Amazon-Settlement-Transformer') / 'scripts' / 'transform.py',
+        ]
+        
+        transform_path = None
+        for path in transform_paths:
+            if path.exists():
+                transform_path = path
+                break
+        
+        if transform_path and transform_path.exists():
+            # Load transform module
             spec = importlib.util.spec_from_file_location("transform", transform_path)
             transform_module = importlib.util.module_from_spec(spec)
             spec.loader.exec_module(transform_module)
             DataTransformer = transform_module.DataTransformer
             
-            exports_path = PROJECT_ROOT / 'scripts' / 'exports.py'
-            spec = importlib.util.spec_from_file_location("exports", exports_path)
-            exports_module = importlib.util.module_from_spec(spec)
-            spec.loader.exec_module(exports_module)
-            DataExporter = exports_module.DataExporter
+            # Load exports module (in same directory as transform)
+            exports_path = transform_path.parent / 'exports.py'
+            if exports_path.exists():
+                spec = importlib.util.spec_from_file_location("exports", exports_path)
+                exports_module = importlib.util.module_from_spec(spec)
+                spec.loader.exec_module(exports_module)
+                DataExporter = exports_module.DataExporter
+            else:
+                raise FileNotFoundError(f"Exports file not found at {exports_path}")
             
-            validate_path = PROJECT_ROOT / 'scripts' / 'validate_settlement.py'
-            spec = importlib.util.spec_from_file_location("validate_settlement", validate_path)
-            validate_module = importlib.util.module_from_spec(spec)
-            spec.loader.exec_module(validate_module)
-            SettlementValidator = validate_module.SettlementValidator
+            # Load validate_settlement module
+            validate_path = transform_path.parent / 'validate_settlement.py'
+            if validate_path.exists():
+                spec = importlib.util.spec_from_file_location("validate_settlement", validate_path)
+                validate_module = importlib.util.module_from_spec(spec)
+                spec.loader.exec_module(validate_module)
+                SettlementValidator = validate_module.SettlementValidator
+            else:
+                raise FileNotFoundError(f"Validate settlement file not found at {validate_path}")
             
             import yaml
             MODULES_LOADED = True
             MODULE_ERROR = None
         else:
-            MODULE_ERROR = f"Transform file not found at {transform_path}. {MODULE_ERROR}"
+            checked_paths = ', '.join([str(p) for p in transform_paths])
+            MODULE_ERROR = f"Transform file not found in any of: {checked_paths}. Primary error: {e}"
     except Exception as e2:
         MODULE_ERROR = f"{MODULE_ERROR}. Secondary attempt failed: {e2}"
 
