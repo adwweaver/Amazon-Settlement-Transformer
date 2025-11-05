@@ -22,9 +22,19 @@ from datetime import datetime
 import json
 import os
 
-# Add scripts directory to path
+# Add scripts directory to path - handle both local and Streamlit Cloud
 scripts_dir = Path(__file__).parent
-sys.path.insert(0, str(scripts_dir))
+if scripts_dir not in [Path(p) for p in sys.path]:
+    sys.path.insert(0, str(scripts_dir))
+
+# Also add project root to path for Streamlit Cloud
+PROJECT_ROOT_TEMP = Path(__file__).parent.parent
+if Path('/mount/src/amazon-settlement-transformer').exists():
+    PROJECT_ROOT_TEMP = Path('/mount/src/amazon-settlement-transformer')
+if str(PROJECT_ROOT_TEMP) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT_TEMP))
+if str(PROJECT_ROOT_TEMP / 'scripts') not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT_TEMP / 'scripts'))
 
 # Try to import paths, but handle if it doesn't exist (for Streamlit Cloud)
 try:
@@ -116,15 +126,45 @@ def process_files():
     
     try:
         # Import processing modules directly (better for Streamlit Cloud)
+        # Try multiple import paths to handle different environments
         try:
             from transform import DataTransformer
             from exports import DataExporter
             from validate_settlement import SettlementValidator
             import yaml
-        except ImportError as e:
-            st.error(f"❌ Import error: {e}. Please check that all required modules are available.")
-            st.session_state.processing = False
-            return False
+        except ImportError as e1:
+            # Try importing from scripts subdirectory
+            try:
+                import importlib.util
+                transform_path = PROJECT_ROOT / 'scripts' / 'transform.py'
+                if transform_path.exists():
+                    spec = importlib.util.spec_from_file_location("transform", transform_path)
+                    transform_module = importlib.util.module_from_spec(spec)
+                    spec.loader.exec_module(transform_module)
+                    DataTransformer = transform_module.DataTransformer
+                    
+                    exports_path = PROJECT_ROOT / 'scripts' / 'exports.py'
+                    spec = importlib.util.spec_from_file_location("exports", exports_path)
+                    exports_module = importlib.util.module_from_spec(spec)
+                    spec.loader.exec_module(exports_module)
+                    DataExporter = exports_module.DataExporter
+                    
+                    validate_path = PROJECT_ROOT / 'scripts' / 'validate_settlement.py'
+                    spec = importlib.util.spec_from_file_location("validate_settlement", validate_path)
+                    validate_module = importlib.util.module_from_spec(spec)
+                    spec.loader.exec_module(validate_module)
+                    SettlementValidator = validate_module.SettlementValidator
+                    
+                    import yaml
+                else:
+                    raise ImportError(f"Module files not found. Error: {e1}")
+            except Exception as e2:
+                st.error(f"❌ Import error: {e1}. Secondary attempt failed: {e2}")
+                st.error(f"📁 Project root: {PROJECT_ROOT}")
+                st.error(f"📁 Scripts directory: {PROJECT_ROOT / 'scripts'}")
+                st.error(f"📁 Python path: {sys.path[:5]}")
+                st.session_state.processing = False
+                return False
         
         # Load config
         config_file = PROJECT_ROOT / 'config' / 'config.yaml'
