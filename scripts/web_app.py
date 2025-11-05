@@ -43,8 +43,13 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Project paths
+# Project paths - handle both local and Streamlit Cloud
 PROJECT_ROOT = Path(__file__).parent.parent
+
+# Check if we're on Streamlit Cloud (different path structure)
+if Path('/mount/src/amazon-settlement-transformer').exists():
+    PROJECT_ROOT = Path('/mount/src/amazon-settlement-transformer')
+
 SETTLEMENTS_FOLDER = PROJECT_ROOT / 'raw_data' / 'settlements'
 OUTPUTS_FOLDER = PROJECT_ROOT / 'outputs'
 
@@ -109,9 +114,23 @@ def process_files():
     st.session_state.processing = True
     
     try:
+        # Find main.py - try multiple locations
+        main_py = PROJECT_ROOT / 'scripts' / 'main.py'
+        if not main_py.exists():
+            # Try relative to current file
+            main_py = Path(__file__).parent / 'main.py'
+        if not main_py.exists():
+            # Try root directory
+            main_py = PROJECT_ROOT / 'main.py'
+        
+        if not main_py.exists():
+            st.error("❌ Error: main.py not found. Please check the file structure.")
+            st.session_state.processing = False
+            return False
+        
         # Run ETL pipeline
         result = subprocess.run(
-            [sys.executable, str(PROJECT_ROOT / 'scripts' / 'main.py')],
+            [sys.executable, str(main_py)],
             cwd=str(PROJECT_ROOT),
             capture_output=True,
             text=True,
