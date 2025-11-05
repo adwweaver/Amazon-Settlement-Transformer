@@ -60,44 +60,65 @@ st.set_page_config(
 # On Streamlit Cloud, try multiple possible paths
 # Start with script location (most reliable) - always use absolute path
 _script_file = Path(__file__)
-script_dir = _script_file.resolve().parent if _script_file.is_absolute() else Path.cwd() / _script_file.parent
+# Always resolve to absolute path
+try:
+    script_dir = _script_file.resolve().parent
+except (OSError, RuntimeError):
+    # Fallback if resolve fails
+    script_dir = Path.cwd() / _script_file.parent
 
 # Get absolute paths for all possible roots
-possible_roots = [
-    script_dir.parent.resolve(),  # Local: scripts/ -> project root
-    Path('/mount/src/amazon-settlement-transformer').resolve(),  # Streamlit lowercase
-    Path('/mount/src/Amazon-Settlement-Transformer').resolve(),  # Streamlit with capitals
-]
+possible_roots = []
+# Add script parent (most reliable)
+script_parent = script_dir.parent.resolve()
+possible_roots.append(script_parent)
+
+# Add Streamlit Cloud paths
+possible_roots.append(Path('/mount/src/amazon-settlement-transformer'))
+possible_roots.append(Path('/mount/src/Amazon-Settlement-Transformer'))
 
 # Also check current working directory
-if Path.cwd().exists():
+try:
     cwd_root = Path.cwd().resolve()
     if cwd_root not in possible_roots:
         possible_roots.append(cwd_root)
+except (OSError, RuntimeError):
+    pass
 
 # Find the actual project root by checking for scripts/transform.py
 # Use absolute paths to avoid relative path issues
 PROJECT_ROOT = None
 for root in possible_roots:
-    if not root.exists():
+    try:
+        root_abs = root.resolve()
+        if not root_abs.exists():
+            continue
+        test_file = root_abs / 'scripts' / 'transform.py'
+        if test_file.exists() and test_file.is_file():
+            PROJECT_ROOT = root_abs
+            break
+    except (OSError, RuntimeError):
         continue
-    test_file = root / 'scripts' / 'transform.py'
-    if test_file.exists() and test_file.is_file():
-        PROJECT_ROOT = root.resolve()
-        break
 
 # Fallback: try script parent with absolute path
 if PROJECT_ROOT is None:
-    candidate = script_dir.parent.resolve()
-    test_file = candidate / 'scripts' / 'transform.py'
-    if test_file.exists() and test_file.is_file():
-        PROJECT_ROOT = candidate
-    else:
-        # Last resort: use script parent anyway (absolute path)
-        PROJECT_ROOT = candidate
+    try:
+        candidate = script_dir.parent.resolve()
+        test_file = candidate / 'scripts' / 'transform.py'
+        if test_file.exists() and test_file.is_file():
+            PROJECT_ROOT = candidate
+        else:
+            # Last resort: use script parent anyway (absolute path)
+            PROJECT_ROOT = candidate
+    except (OSError, RuntimeError):
+        # Ultimate fallback
+        PROJECT_ROOT = Path.cwd()
 
-# Ensure PROJECT_ROOT is always absolute
-PROJECT_ROOT = PROJECT_ROOT.resolve()
+# Ensure PROJECT_ROOT is always absolute and exists
+try:
+    PROJECT_ROOT = PROJECT_ROOT.resolve()
+except (OSError, RuntimeError):
+    PROJECT_ROOT = Path.cwd()
 
 SETTLEMENTS_FOLDER = PROJECT_ROOT / 'raw_data' / 'settlements'
 OUTPUTS_FOLDER = PROJECT_ROOT / 'outputs'
