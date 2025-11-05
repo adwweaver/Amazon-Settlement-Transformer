@@ -24,17 +24,20 @@ import os
 
 # Add scripts directory to path - handle both local and Streamlit Cloud
 scripts_dir = Path(__file__).parent
-if scripts_dir not in [Path(p) for p in sys.path]:
-    sys.path.insert(0, str(scripts_dir))
+scripts_dir_str = str(scripts_dir)
+if scripts_dir_str not in sys.path:
+    sys.path.insert(0, scripts_dir_str)
 
 # Also add project root to path for Streamlit Cloud
 PROJECT_ROOT_TEMP = Path(__file__).parent.parent
 if Path('/mount/src/amazon-settlement-transformer').exists():
     PROJECT_ROOT_TEMP = Path('/mount/src/amazon-settlement-transformer')
-if str(PROJECT_ROOT_TEMP) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT_TEMP))
-if str(PROJECT_ROOT_TEMP / 'scripts') not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT_TEMP / 'scripts'))
+project_root_str = str(PROJECT_ROOT_TEMP)
+if project_root_str not in sys.path:
+    sys.path.insert(0, project_root_str)
+scripts_path_str = str(PROJECT_ROOT_TEMP / 'scripts')
+if scripts_path_str not in sys.path:
+    sys.path.insert(0, scripts_path_str)
 
 # Try to import paths, but handle if it doesn't exist (for Streamlit Cloud)
 try:
