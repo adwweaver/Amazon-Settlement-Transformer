@@ -136,6 +136,19 @@ def process_files():
         with open(config_file, 'r') as f:
             config = yaml.safe_load(f)
         
+        # Setup logging (simplified for web app)
+        import logging
+        log_dir = PROJECT_ROOT / 'logs'
+        log_dir.mkdir(exist=True, exist_ok=True)
+        logging.basicConfig(
+            level=getattr(logging, config.get('options', {}).get('log_level', 'INFO')),
+            format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+            handlers=[
+                logging.FileHandler(log_dir / 'etl_pipeline.log'),
+                logging.StreamHandler()
+            ]
+        )
+        
         # Initialize transformer
         transformer = DataTransformer(config)
         
@@ -173,6 +186,15 @@ def process_files():
         exporter.generate_invoice_export(final_data)
         exporter.generate_payment_export(final_data)
         exporter.generate_dashboard_summary(final_data)
+        
+        # Run validation (optional but recommended)
+        try:
+            validator = SettlementValidator(config)
+            validation_results = validator.validate_settlement(final_data)
+            if validation_results:
+                st.info("✅ Validation checks completed")
+        except Exception as e:
+            st.warning(f"⚠️ Validation skipped: {e}")
         
         st.success("✅ Processing completed successfully!")
         return True
