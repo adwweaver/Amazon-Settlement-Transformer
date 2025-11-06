@@ -1,0 +1,2 @@
+verification_date,total_settlements,balanced_journals,total_journals,balanced_invoice_payments,settlements_with_both,zoho_journals_count,zoho_invoices_count,zoho_payments_count,total_invoice_local,total_payment_local,total_invoice_zoho,total_payment_zoho,invoice_total_match,payment_total_match,all_balanced
+2025-11-04 09:58:22,6,3,6,2,5,6,5,5,25251.38,25141.13,25129.81,25106.14,False,False,False

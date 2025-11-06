@@ -170,3 +170,5 @@ def get_smart_column_widths(df: pd.DataFrame,
     
     return widths
 
+
+

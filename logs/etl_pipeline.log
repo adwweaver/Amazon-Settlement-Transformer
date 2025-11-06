@@ -1,0 +1,530 @@
+2025-10-29 16:21:15,558 - __main__ - INFO - === Amazon Settlement ETL Pipeline Started ===
+2025-10-29 16:21:15,558 - __main__ - INFO - Configuration keys loaded: {'paths': ['raw_data', 'outputs', 'logs'], 'exports': ['journal', 'invoice', 'payment', 'summary'], 'options': {'log_level': 'DEBUG', 'overwrite': True}}
+2025-10-29 16:21:15,559 - root - INFO - Output directory ready: outputs
+2025-10-29 16:21:15,560 - transform - INFO - DataTransformer initialized
+2025-10-29 16:21:15,560 - __main__ - INFO - Starting data extraction and transformation...
+2025-10-29 16:21:15,560 - transform - INFO - Processing settlement data...
+2025-10-29 16:21:15,561 - transform - INFO - Found 6 files in raw_data\settlements
+2025-10-29 16:21:15,561 - transform - DEBUG - Reading file: raw_data\settlements\50011020300.txt
+2025-10-29 16:21:15,575 - transform - DEBUG - Successfully read 4 rows from 50011020300.txt
+2025-10-29 16:21:15,575 - transform - DEBUG - Reading file: raw_data\settlements\50018020314.txt
+2025-10-29 16:21:15,580 - transform - DEBUG - Successfully read 16 rows from 50018020314.txt
+2025-10-29 16:21:15,580 - transform - DEBUG - Reading file: raw_data\settlements\50034020328.txt
+2025-10-29 16:21:15,587 - transform - DEBUG - Successfully read 190 rows from 50034020328.txt
+2025-10-29 16:21:15,587 - transform - DEBUG - Reading file: raw_data\settlements\50041020342.txt
+2025-10-29 16:21:15,596 - transform - DEBUG - Successfully read 490 rows from 50041020342.txt
+2025-10-29 16:21:15,596 - transform - DEBUG - Reading file: raw_data\settlements\50044020356.txt
+2025-10-29 16:21:15,605 - transform - DEBUG - Successfully read 730 rows from 50044020356.txt
+2025-10-29 16:21:15,605 - transform - DEBUG - Reading file: raw_data\settlements\50051020370.txt
+2025-10-29 16:21:15,616 - transform - DEBUG - Successfully read 686 rows from 50051020370.txt
+2025-10-29 16:21:15,650 - transform - INFO - Combined 6 files into 2116 total rows
+2025-10-29 16:21:15,653 - transform - DEBUG - Column names normalized: {'settlement-id': 'settlement_id', 'settlement-start-date': 'settlement_start_date', 'settlement-end-date': 'settlement_end_date', 'deposit-date': 'deposit_date', 'total-amount': 'total_amount', 'currency': 'currency', 'transaction-type': 'transaction_type', 'order-id': 'order_id', 'merchant-order-id': 'merchant_order_id', 'adjustment-id': 'adjustment_id', 'shipment-id': 'shipment_id', 'marketplace-name': 'marketplace_name', 'shipment-fee-type': 'shipment_fee_type', 'shipment-fee-amount': 'shipment_fee_amount', 'order-fee-type': 'order_fee_type', 'order-fee-amount': 'order_fee_amount', 'fulfillment-id': 'fulfillment_id', 'posted-date': 'posted_date', 'order-item-code': 'order_item_code', 'merchant-order-item-id': 'merchant_order_item_id', 'merchant-adjustment-item-id': 'merchant_adjustment_item_id', 'sku': 'sku', 'quantity-purchased': 'quantity_purchased', 'price-type': 'price_type', 'price-amount': 'price_amount', 'item-related-fee-type': 'item_related_fee_type', 'item-related-fee-amount': 'item_related_fee_amount', 'misc-fee-amount': 'misc_fee_amount', 'other-fee-amount': 'other_fee_amount', 'other-fee-reason-description': 'other_fee_reason_description', 'direct-payment-type': 'direct_payment_type', 'direct-payment-amount': 'direct_payment_amount', 'other-amount': 'other_amount', 'source_file': 'source_file', 'promotion-id': 'promotion_id', 'promotion-type': 'promotion_type', 'promotion-amount': 'promotion_amount'}
+2025-10-29 16:21:15,724 - transform - DEBUG - Data values cleaned for 2116 rows
+2025-10-29 16:21:15,725 - transform - INFO - Applying SettlementSummary_Base transformations...
+2025-10-29 16:21:15,725 - transform - DEBUG - Available columns: ['settlement_id', 'settlement_start_date', 'settlement_end_date', 'deposit_date', 'total_amount', 'currency', 'transaction_type', 'order_id', 'merchant_order_id', 'adjustment_id', 'shipment_id', 'marketplace_name', 'shipment_fee_type', 'shipment_fee_amount', 'order_fee_type', 'order_fee_amount', 'fulfillment_id', 'posted_date', 'order_item_code', 'merchant_order_item_id', 'merchant_adjustment_item_id', 'sku', 'quantity_purchased', 'price_type', 'price_amount', 'item_related_fee_type', 'item_related_fee_amount', 'misc_fee_amount', 'other_fee_amount', 'other_fee_reason_description', 'direct_payment_type', 'direct_payment_amount', 'other_amount', 'source_file', 'promotion_id', 'promotion_type', 'promotion_amount', 'data_source']
+2025-10-29 16:21:17,355 - transform - INFO - Creating price lookup table...
+2025-10-29 16:21:17,396 - transform - INFO - Price lookup table created: 452 entries
+2025-10-29 16:21:17,398 - transform - INFO - Settlement transformations completed: 2116 rows processed
+2025-10-29 16:21:17,398 - transform - INFO - Settlement processing completed: 2116 records
+2025-10-29 16:21:17,399 - __main__ - INFO - Processed 2116 settlement records
+2025-10-29 16:21:17,399 - transform - INFO - Processing invoice data...
+2025-10-29 16:21:17,399 - transform - WARNING - No *.txt files found in raw_data\invoices
+2025-10-29 16:21:17,399 - transform - WARNING - No invoice data to process
+2025-10-29 16:21:17,399 - __main__ - INFO - Processed 0 invoice records
+2025-10-29 16:21:17,399 - transform - INFO - Processing payment data...
+2025-10-29 16:21:17,400 - transform - WARNING - No *.txt files found in raw_data\payments
+2025-10-29 16:21:17,400 - transform - WARNING - No payment data to process
+2025-10-29 16:21:17,400 - __main__ - INFO - Processed 0 payment records
+2025-10-29 16:21:17,400 - __main__ - INFO - Merging and finalizing data transformations...
+2025-10-29 16:21:17,400 - transform - INFO - Merging and finalizing datasets...
+2025-10-29 16:21:17,410 - transform - INFO - Final datasets prepared - Journal: 2116, Invoice: 2116, Payment: 2116
+2025-10-29 16:21:17,411 - exports - INFO - DataExporter initialized
+2025-10-29 16:21:17,411 - __main__ - INFO - Generating export files...
+2025-10-29 16:21:17,411 - exports - INFO - Generating Journal Export...
+2025-10-29 16:21:17,411 - exports - INFO - Applying JournalExport M Code logic...
+2025-10-29 16:21:17,770 - exports - INFO - Flipping 951 expense transactions to credits
+2025-10-29 16:21:17,771 - exports - INFO - Expense accounts found: ['Amazon Account Fees' 'Amazon Inbound Freight Charges'
+ 'Amazon Advertising Expense' 'Amazon FBA Fulfillment Fees'
+ 'Amazon Storage Expense']
+2025-10-29 16:21:17,774 - exports - INFO - Before flip - sample expense row: [{'GL_Account': 'Amazon Account Fees', 'Debit': 0.0, 'Credit': 32.09}]
+2025-10-29 16:21:17,778 - exports - INFO - After flip - sample expense row: [{'GL_Account': 'Amazon Account Fees', 'Debit': 32.09, 'Credit': 0.0}]
+2025-10-29 16:21:17,797 - exports - INFO - Journal export prepared: 1675 entries
+2025-10-29 16:21:17,798 - exports - INFO - Journal export validation passed: 1675 rows, 10 columns
+2025-10-29 16:21:17,798 - exports - INFO - Generating Journal files for 6 settlements
+2025-10-29 16:21:17,799 - exports - INFO - Journal imbalance detected for 23874396421: Credits 32.09 - Debits 675.47 = -643.38
+2025-10-29 16:21:17,801 - exports - INFO - Adjusting bank deposit for 23874396421 from 321.69 to -321.69
+2025-10-29 16:21:17,810 - exports - INFO - Journal export saved: outputs\Journal_23874396421.csv (4 rows)
+2025-10-29 16:21:17,811 - exports - INFO - Journal imbalance detected for 23874397121: Credits 752.50 - Debits 119.32 = 633.18
+2025-10-29 16:21:17,812 - exports - INFO - Adjusting bank deposit for 23874397121 from 62.31 to 695.49
+2025-10-29 16:21:17,818 - exports - INFO - Journal export saved: outputs\Journal_23874397121.csv (16 rows)
+2025-10-29 16:21:17,819 - exports - INFO - Journal imbalance detected for 24288684721: Credits 3494.58 - Debits 1105.02 = 2389.56
+2025-10-29 16:21:17,820 - exports - INFO - Adjusting bank deposit for 24288684721 from 0.00 to 2389.56
+2025-10-29 16:21:17,826 - exports - INFO - Journal export saved: outputs\Journal_24288684721.csv (154 rows)
+2025-10-29 16:21:17,827 - exports - INFO - Journal imbalance detected for 24391894961: Credits 8927.89 - Debits 3285.31 = 5642.58
+2025-10-29 16:21:17,828 - exports - INFO - Adjusting bank deposit for 24391894961 from 0.00 to 5642.58
+2025-10-29 16:21:17,836 - exports - INFO - Journal export saved: outputs\Journal_24391894961.csv (387 rows)
+2025-10-29 16:21:17,837 - exports - INFO - Journal imbalance detected for 24495221541: Credits 13768.86 - Debits 3698.34 = 10070.52
+2025-10-29 16:21:17,838 - exports - INFO - Adjusting bank deposit for 24495221541 from 0.00 to 10070.52
+2025-10-29 16:21:17,848 - exports - INFO - Journal export saved: outputs\Journal_24495221541.csv (576 rows)
+2025-10-29 16:21:17,849 - exports - INFO - Journal imbalance detected for 24596907561: Credits 12978.59 - Debits 4468.51 = 8510.08
+2025-10-29 16:21:17,850 - exports - INFO - Adjusting bank deposit for 24596907561 from 0.00 to 8510.08
+2025-10-29 16:21:17,860 - exports - INFO - Journal export saved: outputs\Journal_24596907561.csv (538 rows)
+2025-10-29 16:21:17,860 - exports - INFO - All Journal files generated successfully (6/6)
+2025-10-29 16:21:17,860 - __main__ - INFO - Journal export generated successfully
+2025-10-29 16:21:17,860 - exports - INFO - Generating Invoice Export...
+2025-10-29 16:21:17,861 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:18,071 - exports - INFO - Invoice export prepared: 458 total lines (456 standard, 2 $0 transactions)
+2025-10-29 16:21:18,071 - exports - INFO - Invoice export validation passed: 458 rows, 14 columns
+2025-10-29 16:21:18,071 - exports - INFO - Generating Invoice files for 5 settlements
+2025-10-29 16:21:18,076 - exports - INFO - Invoice export saved: outputs\Invoice_23874397121.csv (1 rows)
+2025-10-29 16:21:18,081 - exports - INFO - Invoice export saved: outputs\Invoice_24288684721.csv (40 rows)
+2025-10-29 16:21:18,086 - exports - INFO - Invoice export saved: outputs\Invoice_24391894961.csv (106 rows)
+2025-10-29 16:21:18,091 - exports - INFO - Invoice export saved: outputs\Invoice_24495221541.csv (158 rows)
+2025-10-29 16:21:18,098 - exports - INFO - Invoice export saved: outputs\Invoice_24596907561.csv (153 rows)
+2025-10-29 16:21:18,098 - exports - INFO - All Invoice files generated successfully (5/5)
+2025-10-29 16:21:18,099 - __main__ - INFO - Invoice export generated successfully
+2025-10-29 16:21:18,099 - exports - INFO - Generating Payment Export...
+2025-10-29 16:21:18,099 - exports - INFO - Applying PaymentExport M Code logic...
+2025-10-29 16:21:18,101 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:18,318 - exports - INFO - Invoice export prepared: 452 total lines (452 standard, 0 $0 transactions)
+2025-10-29 16:21:18,343 - exports - INFO - Payment export prepared: 432 payment records
+2025-10-29 16:21:18,344 - exports - INFO - Payment export validation passed: 432 rows, 9 columns
+2025-10-29 16:21:18,344 - exports - INFO - Generating Payment files for 5 settlements
+2025-10-29 16:21:18,352 - exports - INFO - Payment export saved: outputs\Payment_24495221541.csv (150 rows)
+2025-10-29 16:21:18,357 - exports - INFO - Payment export saved: outputs\Payment_24288684721.csv (34 rows)
+2025-10-29 16:21:18,363 - exports - INFO - Payment export saved: outputs\Payment_24391894961.csv (104 rows)
+2025-10-29 16:21:18,370 - exports - INFO - Payment export saved: outputs\Payment_24596907561.csv (143 rows)
+2025-10-29 16:21:18,375 - exports - INFO - Payment export saved: outputs\Payment_23874397121.csv (1 rows)
+2025-10-29 16:21:18,375 - exports - INFO - All Payment files generated successfully (5/5)
+2025-10-29 16:21:18,375 - __main__ - INFO - Payment export generated successfully
+2025-10-29 16:21:18,375 - exports - INFO - Generating Dashboard Summary...
+2025-10-29 16:21:18,376 - exports - INFO - Applying JournalExport M Code logic...
+2025-10-29 16:21:18,790 - exports - INFO - Flipping 951 expense transactions to credits
+2025-10-29 16:21:18,791 - exports - INFO - Expense accounts found: ['Amazon Account Fees' 'Amazon Inbound Freight Charges'
+ 'Amazon Advertising Expense' 'Amazon FBA Fulfillment Fees'
+ 'Amazon Storage Expense']
+2025-10-29 16:21:18,792 - exports - INFO - Before flip - sample expense row: [{'GL_Account': 'Amazon Account Fees', 'Debit': 0.0, 'Credit': 32.09}]
+2025-10-29 16:21:18,795 - exports - INFO - After flip - sample expense row: [{'GL_Account': 'Amazon Account Fees', 'Debit': 32.09, 'Credit': 0.0}]
+2025-10-29 16:21:18,813 - exports - INFO - Journal export prepared: 1675 entries
+2025-10-29 16:21:18,819 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:18,833 - exports - INFO - Invoice export prepared: 0 total lines (0 standard, 0 $0 transactions)
+2025-10-29 16:21:18,837 - exports - INFO - Applying JournalExport M Code logic...
+2025-10-29 16:21:18,846 - exports - INFO - Flipping 2 expense transactions to credits
+2025-10-29 16:21:18,847 - exports - INFO - Expense accounts found: ['Amazon Account Fees' 'Amazon Inbound Freight Charges']
+2025-10-29 16:21:18,848 - exports - INFO - Before flip - sample expense row: [{'GL_Account': 'Amazon Account Fees', 'Debit': 0.0, 'Credit': 32.09}]
+2025-10-29 16:21:18,851 - exports - INFO - After flip - sample expense row: [{'GL_Account': 'Amazon Account Fees', 'Debit': 32.09, 'Credit': 0.0}]
+2025-10-29 16:21:18,855 - exports - INFO - Journal export prepared: 4 entries
+2025-10-29 16:21:18,857 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:18,871 - exports - INFO - Invoice export prepared: 0 total lines (0 standard, 0 $0 transactions)
+2025-10-29 16:21:18,886 - exports - INFO - Applying JournalExport M Code logic...
+2025-10-29 16:21:18,896 - exports - INFO - Flipping 2 expense transactions to credits
+2025-10-29 16:21:18,897 - exports - INFO - Expense accounts found: ['Amazon Account Fees' 'Amazon Inbound Freight Charges']
+2025-10-29 16:21:18,899 - exports - INFO - Before flip - sample expense row: [{'GL_Account': 'Amazon Account Fees', 'Debit': 0.0, 'Credit': 32.09}]
+2025-10-29 16:21:18,902 - exports - INFO - After flip - sample expense row: [{'GL_Account': 'Amazon Account Fees', 'Debit': 32.09, 'Credit': 0.0}]
+2025-10-29 16:21:18,906 - exports - INFO - Journal export prepared: 4 entries
+2025-10-29 16:21:18,913 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:18,927 - exports - INFO - Invoice export prepared: 1 total lines (1 standard, 0 $0 transactions)
+2025-10-29 16:21:18,931 - exports - INFO - Applying JournalExport M Code logic...
+2025-10-29 16:21:18,943 - exports - INFO - Flipping 8 expense transactions to credits
+2025-10-29 16:21:18,944 - exports - INFO - Expense accounts found: ['Amazon Account Fees' 'Amazon Advertising Expense'
+ 'Amazon FBA Fulfillment Fees']
+2025-10-29 16:21:18,945 - exports - INFO - Before flip - sample expense row: [{'GL_Account': 'Amazon Account Fees', 'Debit': 0.0, 'Credit': 32.09}]
+2025-10-29 16:21:18,948 - exports - INFO - After flip - sample expense row: [{'GL_Account': 'Amazon Account Fees', 'Debit': 32.09, 'Credit': 0.0}]
+2025-10-29 16:21:18,956 - exports - INFO - Journal export prepared: 16 entries
+2025-10-29 16:21:18,958 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:18,972 - exports - INFO - Invoice export prepared: 1 total lines (1 standard, 0 $0 transactions)
+2025-10-29 16:21:18,982 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:18,998 - exports - INFO - Invoice export prepared: 1 total lines (1 standard, 0 $0 transactions)
+2025-10-29 16:21:19,002 - exports - INFO - Applying JournalExport M Code logic...
+2025-10-29 16:21:19,019 - exports - INFO - Flipping 8 expense transactions to credits
+2025-10-29 16:21:19,020 - exports - INFO - Expense accounts found: ['Amazon Account Fees' 'Amazon Advertising Expense'
+ 'Amazon FBA Fulfillment Fees']
+2025-10-29 16:21:19,022 - exports - INFO - Before flip - sample expense row: [{'GL_Account': 'Amazon Account Fees', 'Debit': 0.0, 'Credit': 32.09}]
+2025-10-29 16:21:19,028 - exports - INFO - After flip - sample expense row: [{'GL_Account': 'Amazon Account Fees', 'Debit': 32.09, 'Credit': 0.0}]
+2025-10-29 16:21:19,043 - exports - INFO - Journal export prepared: 16 entries
+2025-10-29 16:21:19,044 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:19,067 - exports - INFO - Invoice export prepared: 1 total lines (1 standard, 0 $0 transactions)
+2025-10-29 16:21:19,073 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:19,129 - exports - INFO - Invoice export prepared: 40 total lines (39 standard, 1 $0 transactions)
+2025-10-29 16:21:19,136 - exports - INFO - Applying JournalExport M Code logic...
+2025-10-29 16:21:19,234 - exports - INFO - Flipping 94 expense transactions to credits
+2025-10-29 16:21:19,235 - exports - INFO - Expense accounts found: ['Amazon FBA Fulfillment Fees' 'Amazon Advertising Expense']
+2025-10-29 16:21:19,238 - exports - INFO - Before flip - sample expense row: [{'GL_Account': 'Amazon FBA Fulfillment Fees', 'Debit': 0.0, 'Credit': 7.71}]
+2025-10-29 16:21:19,246 - exports - INFO - After flip - sample expense row: [{'GL_Account': 'Amazon FBA Fulfillment Fees', 'Debit': 7.71, 'Credit': 0.0}]
+2025-10-29 16:21:19,263 - exports - INFO - Journal export prepared: 154 entries
+2025-10-29 16:21:19,266 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:19,332 - exports - INFO - Invoice export prepared: 40 total lines (39 standard, 1 $0 transactions)
+2025-10-29 16:21:19,365 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:19,440 - exports - INFO - Invoice export prepared: 40 total lines (39 standard, 1 $0 transactions)
+2025-10-29 16:21:19,447 - exports - INFO - Applying JournalExport M Code logic...
+2025-10-29 16:21:19,552 - exports - INFO - Flipping 94 expense transactions to credits
+2025-10-29 16:21:19,553 - exports - INFO - Expense accounts found: ['Amazon FBA Fulfillment Fees' 'Amazon Advertising Expense']
+2025-10-29 16:21:19,555 - exports - INFO - Before flip - sample expense row: [{'GL_Account': 'Amazon FBA Fulfillment Fees', 'Debit': 0.0, 'Credit': 7.71}]
+2025-10-29 16:21:19,560 - exports - INFO - After flip - sample expense row: [{'GL_Account': 'Amazon FBA Fulfillment Fees', 'Debit': 7.71, 'Credit': 0.0}]
+2025-10-29 16:21:19,574 - exports - INFO - Journal export prepared: 154 entries
+2025-10-29 16:21:19,575 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:19,617 - exports - INFO - Invoice export prepared: 40 total lines (39 standard, 1 $0 transactions)
+2025-10-29 16:21:19,622 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:19,706 - exports - INFO - Invoice export prepared: 106 total lines (106 standard, 0 $0 transactions)
+2025-10-29 16:21:19,713 - exports - INFO - Applying JournalExport M Code logic...
+2025-10-29 16:21:19,812 - exports - INFO - Flipping 217 expense transactions to credits
+2025-10-29 16:21:19,813 - exports - INFO - Expense accounts found: ['Amazon FBA Fulfillment Fees' 'Amazon Advertising Expense'
+ 'Amazon Account Fees' 'Amazon Storage Expense']
+2025-10-29 16:21:19,815 - exports - INFO - Before flip - sample expense row: [{'GL_Account': 'Amazon FBA Fulfillment Fees', 'Debit': 0.0, 'Credit': 9.63}]
+2025-10-29 16:21:19,818 - exports - INFO - After flip - sample expense row: [{'GL_Account': 'Amazon FBA Fulfillment Fees', 'Debit': 9.63, 'Credit': 0.0}]
+2025-10-29 16:21:19,827 - exports - INFO - Journal export prepared: 387 entries
+2025-10-29 16:21:19,829 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:19,889 - exports - INFO - Invoice export prepared: 106 total lines (106 standard, 0 $0 transactions)
+2025-10-29 16:21:19,913 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:19,969 - exports - INFO - Invoice export prepared: 106 total lines (106 standard, 0 $0 transactions)
+2025-10-29 16:21:19,974 - exports - INFO - Applying JournalExport M Code logic...
+2025-10-29 16:21:20,065 - exports - INFO - Flipping 217 expense transactions to credits
+2025-10-29 16:21:20,066 - exports - INFO - Expense accounts found: ['Amazon FBA Fulfillment Fees' 'Amazon Advertising Expense'
+ 'Amazon Account Fees' 'Amazon Storage Expense']
+2025-10-29 16:21:20,067 - exports - INFO - Before flip - sample expense row: [{'GL_Account': 'Amazon FBA Fulfillment Fees', 'Debit': 0.0, 'Credit': 9.63}]
+2025-10-29 16:21:20,070 - exports - INFO - After flip - sample expense row: [{'GL_Account': 'Amazon FBA Fulfillment Fees', 'Debit': 9.63, 'Credit': 0.0}]
+2025-10-29 16:21:20,079 - exports - INFO - Journal export prepared: 387 entries
+2025-10-29 16:21:20,080 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:20,140 - exports - INFO - Invoice export prepared: 106 total lines (106 standard, 0 $0 transactions)
+2025-10-29 16:21:20,149 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:20,237 - exports - INFO - Invoice export prepared: 158 total lines (157 standard, 1 $0 transactions)
+2025-10-29 16:21:20,243 - exports - INFO - Applying JournalExport M Code logic...
+2025-10-29 16:21:20,371 - exports - INFO - Flipping 320 expense transactions to credits
+2025-10-29 16:21:20,372 - exports - INFO - Expense accounts found: ['Amazon FBA Fulfillment Fees' 'Amazon Advertising Expense']
+2025-10-29 16:21:20,374 - exports - INFO - Before flip - sample expense row: [{'GL_Account': 'Amazon FBA Fulfillment Fees', 'Debit': 0.0, 'Credit': 8.25}]
+2025-10-29 16:21:20,377 - exports - INFO - After flip - sample expense row: [{'GL_Account': 'Amazon FBA Fulfillment Fees', 'Debit': 8.25, 'Credit': 0.0}]
+2025-10-29 16:21:20,386 - exports - INFO - Journal export prepared: 576 entries
+2025-10-29 16:21:20,387 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:20,465 - exports - INFO - Invoice export prepared: 158 total lines (157 standard, 1 $0 transactions)
+2025-10-29 16:21:20,491 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:20,569 - exports - INFO - Invoice export prepared: 158 total lines (157 standard, 1 $0 transactions)
+2025-10-29 16:21:20,574 - exports - INFO - Applying JournalExport M Code logic...
+2025-10-29 16:21:20,701 - exports - INFO - Flipping 320 expense transactions to credits
+2025-10-29 16:21:20,702 - exports - INFO - Expense accounts found: ['Amazon FBA Fulfillment Fees' 'Amazon Advertising Expense']
+2025-10-29 16:21:20,703 - exports - INFO - Before flip - sample expense row: [{'GL_Account': 'Amazon FBA Fulfillment Fees', 'Debit': 0.0, 'Credit': 8.25}]
+2025-10-29 16:21:20,706 - exports - INFO - After flip - sample expense row: [{'GL_Account': 'Amazon FBA Fulfillment Fees', 'Debit': 8.25, 'Credit': 0.0}]
+2025-10-29 16:21:20,714 - exports - INFO - Journal export prepared: 576 entries
+2025-10-29 16:21:20,715 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:20,782 - exports - INFO - Invoice export prepared: 158 total lines (157 standard, 1 $0 transactions)
+2025-10-29 16:21:20,787 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:20,853 - exports - INFO - Invoice export prepared: 153 total lines (153 standard, 0 $0 transactions)
+2025-10-29 16:21:20,858 - exports - INFO - Applying JournalExport M Code logic...
+2025-10-29 16:21:20,976 - exports - INFO - Flipping 310 expense transactions to credits
+2025-10-29 16:21:20,977 - exports - INFO - Expense accounts found: ['Amazon FBA Fulfillment Fees' 'Amazon Advertising Expense'
+ 'Amazon Account Fees' 'Amazon Storage Expense']
+2025-10-29 16:21:20,978 - exports - INFO - Before flip - sample expense row: [{'GL_Account': 'Amazon FBA Fulfillment Fees', 'Debit': 0.0, 'Credit': 6.12}]
+2025-10-29 16:21:20,981 - exports - INFO - After flip - sample expense row: [{'GL_Account': 'Amazon FBA Fulfillment Fees', 'Debit': 6.12, 'Credit': 0.0}]
+2025-10-29 16:21:20,991 - exports - INFO - Journal export prepared: 538 entries
+2025-10-29 16:21:20,994 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:21,088 - exports - INFO - Invoice export prepared: 153 total lines (153 standard, 0 $0 transactions)
+2025-10-29 16:21:21,120 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:21,196 - exports - INFO - Invoice export prepared: 153 total lines (153 standard, 0 $0 transactions)
+2025-10-29 16:21:21,201 - exports - INFO - Applying JournalExport M Code logic...
+2025-10-29 16:21:21,333 - exports - INFO - Flipping 310 expense transactions to credits
+2025-10-29 16:21:21,333 - exports - INFO - Expense accounts found: ['Amazon FBA Fulfillment Fees' 'Amazon Advertising Expense'
+ 'Amazon Account Fees' 'Amazon Storage Expense']
+2025-10-29 16:21:21,334 - exports - INFO - Before flip - sample expense row: [{'GL_Account': 'Amazon FBA Fulfillment Fees', 'Debit': 0.0, 'Credit': 6.12}]
+2025-10-29 16:21:21,337 - exports - INFO - After flip - sample expense row: [{'GL_Account': 'Amazon FBA Fulfillment Fees', 'Debit': 6.12, 'Credit': 0.0}]
+2025-10-29 16:21:21,350 - exports - INFO - Journal export prepared: 538 entries
+2025-10-29 16:21:21,352 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:21,429 - exports - INFO - Invoice export prepared: 153 total lines (153 standard, 0 $0 transactions)
+2025-10-29 16:21:21,838 - exports - ERROR - Failed to generate dashboard summary: "There is no item named '[Content_Types].xml' in the archive"
+2025-10-29 16:21:21,845 - exports - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\scripts\exports.py", line 1736, in generate_dashboard_summary
+    existing_df = pd.read_excel(dashboard_file, engine='openpyxl')
+  File "C:\Users\User\AppData\Roaming\Python\Python314\site-packages\pandas\io\excel\_base.py", line 495, in read_excel
+    io = ExcelFile(
+        io,
+    ...<2 lines>...
+        engine_kwargs=engine_kwargs,
+    )
+  File "C:\Users\User\AppData\Roaming\Python\Python314\site-packages\pandas\io\excel\_base.py", line 1567, in __init__
+    self._reader = self._engines[engine](
+                   ~~~~~~~~~~~~~~~~~~~~~^
+        self._io,
+        ^^^^^^^^^
+        storage_options=storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        engine_kwargs=engine_kwargs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python314\site-packages\pandas\io\excel\_openpyxl.py", line 553, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        filepath_or_buffer,
+        ^^^^^^^^^^^^^^^^^^^
+        storage_options=storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        engine_kwargs=engine_kwargs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python314\site-packages\pandas\io\excel\_base.py", line 573, in __init__
+    self.book = self.load_workbook(self.handles.handle, engine_kwargs)
+                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Roaming\Python\Python314\site-packages\pandas\io\excel\_openpyxl.py", line 572, in load_workbook
+    return load_workbook(
+        filepath_or_buffer,
+        **(default_kwargs | engine_kwargs),
+    )
+  File "C:\Users\User\AppData\Roaming\Python\Python314\site-packages\openpyxl\reader\excel.py", line 348, in load_workbook
+    reader.read()
+    ~~~~~~~~~~~^^
+  File "C:\Users\User\AppData\Roaming\Python\Python314\site-packages\openpyxl\reader\excel.py", line 289, in read
+    self.read_manifest()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\User\AppData\Roaming\Python\Python314\site-packages\openpyxl\reader\excel.py", line 134, in read_manifest
+    src = self.archive.read(ARC_CONTENT_TYPES)
+  File "C:\Python314\Lib\zipfile\__init__.py", line 1668, in read
+    with self.open(name, "r", pwd) as fp:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\zipfile\__init__.py", line 1705, in open
+    zinfo = self.getinfo(name)
+  File "C:\Python314\Lib\zipfile\__init__.py", line 1633, in getinfo
+    raise KeyError(
+        'There is no item named %r in the archive' % name)
+KeyError: "There is no item named '[Content_Types].xml' in the archive"
+
+2025-10-29 16:21:21,846 - exports - INFO - Applying JournalExport M Code logic...
+2025-10-29 16:21:22,281 - exports - INFO - Flipping 951 expense transactions to credits
+2025-10-29 16:21:22,282 - exports - INFO - Expense accounts found: ['Amazon Account Fees' 'Amazon Inbound Freight Charges'
+ 'Amazon Advertising Expense' 'Amazon FBA Fulfillment Fees'
+ 'Amazon Storage Expense']
+2025-10-29 16:21:22,283 - exports - INFO - Before flip - sample expense row: [{'GL_Account': 'Amazon Account Fees', 'Debit': 0.0, 'Credit': 32.09}]
+2025-10-29 16:21:22,286 - exports - INFO - After flip - sample expense row: [{'GL_Account': 'Amazon Account Fees', 'Debit': 32.09, 'Credit': 0.0}]
+2025-10-29 16:21:22,301 - exports - INFO - Journal export prepared: 1675 entries
+2025-10-29 16:21:22,302 - exports - WARNING - Could not load zoho_gl_mapping.yaml for reference report: 'config'
+2025-10-29 16:21:22,315 - exports - INFO - GL Account Summary saved: outputs\GL_Account_Summary_23874396421.csv
+2025-10-29 16:21:22,318 - exports - INFO - GL Mapping Reference saved: outputs\GL_Mapping_Reference_23874396421.csv
+2025-10-29 16:21:22,328 - exports - INFO - GL Account Summary saved: outputs\GL_Account_Summary_23874397121.csv
+2025-10-29 16:21:22,331 - exports - INFO - GL Mapping Reference saved: outputs\GL_Mapping_Reference_23874397121.csv
+2025-10-29 16:21:22,341 - exports - INFO - GL Account Summary saved: outputs\GL_Account_Summary_24288684721.csv
+2025-10-29 16:21:22,344 - exports - INFO - GL Mapping Reference saved: outputs\GL_Mapping_Reference_24288684721.csv
+2025-10-29 16:21:22,352 - exports - INFO - GL Account Summary saved: outputs\GL_Account_Summary_24391894961.csv
+2025-10-29 16:21:22,354 - exports - INFO - GL Mapping Reference saved: outputs\GL_Mapping_Reference_24391894961.csv
+2025-10-29 16:21:22,363 - exports - INFO - GL Account Summary saved: outputs\GL_Account_Summary_24495221541.csv
+2025-10-29 16:21:22,366 - exports - INFO - GL Mapping Reference saved: outputs\GL_Mapping_Reference_24495221541.csv
+2025-10-29 16:21:22,376 - exports - INFO - GL Account Summary saved: outputs\GL_Account_Summary_24596907561.csv
+2025-10-29 16:21:22,379 - exports - INFO - GL Mapping Reference saved: outputs\GL_Mapping_Reference_24596907561.csv
+2025-10-29 16:21:22,379 - __main__ - INFO - GL reports generated successfully
+2025-10-29 16:21:22,380 - __main__ - INFO - Journal data columns: ['settlement_id', 'order_id', 'merchant_order_id', 'transaction_type', 'posted_date']
+2025-10-29 16:21:22,380 - __main__ - INFO - Has settlement_id column: True
+2025-10-29 16:21:22,380 - __main__ - INFO - Starting settlement history recording...
+2025-10-29 16:21:22,382 - exports - INFO - Applying JournalExport M Code logic...
+2025-10-29 16:21:22,390 - exports - INFO - Flipping 2 expense transactions to credits
+2025-10-29 16:21:22,391 - exports - INFO - Expense accounts found: ['Amazon Account Fees' 'Amazon Inbound Freight Charges']
+2025-10-29 16:21:22,393 - exports - INFO - Before flip - sample expense row: [{'GL_Account': 'Amazon Account Fees', 'Debit': 0.0, 'Credit': 32.09}]
+2025-10-29 16:21:22,395 - exports - INFO - After flip - sample expense row: [{'GL_Account': 'Amazon Account Fees', 'Debit': 32.09, 'Credit': 0.0}]
+2025-10-29 16:21:22,399 - exports - INFO - Journal export prepared: 4 entries
+2025-10-29 16:21:22,402 - __main__ - DEBUG -   Settlement 23874396421 deposit_date: 2025-08-02
+2025-10-29 16:21:22,404 - __main__ - DEBUG -   Settlement 23874396421 date range: 2025-06-06 to 2025-07-31
+2025-10-29 16:21:22,405 - __main__ - INFO - Recording history for settlement 23874396421
+2025-10-29 16:21:22,415 - tracking - INFO - Settlement history recorded for 23874396421
+2025-10-29 16:21:22,415 - __main__ - INFO - History recording result for 23874396421: True
+2025-10-29 16:21:22,417 - exports - INFO - Applying JournalExport M Code logic...
+2025-10-29 16:21:22,429 - exports - INFO - Flipping 8 expense transactions to credits
+2025-10-29 16:21:22,430 - exports - INFO - Expense accounts found: ['Amazon Account Fees' 'Amazon Advertising Expense'
+ 'Amazon FBA Fulfillment Fees']
+2025-10-29 16:21:22,431 - exports - INFO - Before flip - sample expense row: [{'GL_Account': 'Amazon Account Fees', 'Debit': 0.0, 'Credit': 32.09}]
+2025-10-29 16:21:22,434 - exports - INFO - After flip - sample expense row: [{'GL_Account': 'Amazon Account Fees', 'Debit': 32.09, 'Credit': 0.0}]
+2025-10-29 16:21:22,442 - exports - INFO - Journal export prepared: 16 entries
+2025-10-29 16:21:22,447 - __main__ - DEBUG -   Settlement 23874397121 deposit_date: 2025-08-16
+2025-10-29 16:21:22,448 - __main__ - DEBUG -   Settlement 23874397121 date range: 2025-07-31 to 2025-08-14
+2025-10-29 16:21:22,449 - __main__ - INFO - Recording history for settlement 23874397121
+2025-10-29 16:21:22,470 - tracking - INFO - Settlement history recorded for 23874397121
+2025-10-29 16:21:22,470 - __main__ - INFO - History recording result for 23874397121: True
+2025-10-29 16:21:22,472 - exports - INFO - Applying JournalExport M Code logic...
+2025-10-29 16:21:22,520 - exports - INFO - Flipping 94 expense transactions to credits
+2025-10-29 16:21:22,521 - exports - INFO - Expense accounts found: ['Amazon FBA Fulfillment Fees' 'Amazon Advertising Expense']
+2025-10-29 16:21:22,523 - exports - INFO - Before flip - sample expense row: [{'GL_Account': 'Amazon FBA Fulfillment Fees', 'Debit': 0.0, 'Credit': 7.71}]
+2025-10-29 16:21:22,526 - exports - INFO - After flip - sample expense row: [{'GL_Account': 'Amazon FBA Fulfillment Fees', 'Debit': 7.71, 'Credit': 0.0}]
+2025-10-29 16:21:22,535 - exports - INFO - Journal export prepared: 154 entries
+2025-10-29 16:21:22,539 - __main__ - DEBUG -   Settlement 24288684721 deposit_date: 2025-08-30
+2025-10-29 16:21:22,543 - __main__ - DEBUG -   Settlement 24288684721 date range: 2025-08-14 to 2025-08-28
+2025-10-29 16:21:22,543 - __main__ - INFO - Recording history for settlement 24288684721
+2025-10-29 16:21:22,567 - tracking - INFO - Settlement history recorded for 24288684721
+2025-10-29 16:21:22,568 - __main__ - INFO - History recording result for 24288684721: True
+2025-10-29 16:21:22,570 - exports - INFO - Applying JournalExport M Code logic...
+2025-10-29 16:21:22,689 - exports - INFO - Flipping 217 expense transactions to credits
+2025-10-29 16:21:22,690 - exports - INFO - Expense accounts found: ['Amazon FBA Fulfillment Fees' 'Amazon Advertising Expense'
+ 'Amazon Account Fees' 'Amazon Storage Expense']
+2025-10-29 16:21:22,692 - exports - INFO - Before flip - sample expense row: [{'GL_Account': 'Amazon FBA Fulfillment Fees', 'Debit': 0.0, 'Credit': 9.63}]
+2025-10-29 16:21:22,697 - exports - INFO - After flip - sample expense row: [{'GL_Account': 'Amazon FBA Fulfillment Fees', 'Debit': 9.63, 'Credit': 0.0}]
+2025-10-29 16:21:22,712 - exports - INFO - Journal export prepared: 387 entries
+2025-10-29 16:21:22,717 - __main__ - DEBUG -   Settlement 24391894961 deposit_date: 2025-09-13
+2025-10-29 16:21:22,720 - __main__ - DEBUG -   Settlement 24391894961 date range: 2025-08-29 to 2025-09-11
+2025-10-29 16:21:22,721 - __main__ - INFO - Recording history for settlement 24391894961
+2025-10-29 16:21:22,735 - tracking - INFO - Settlement history recorded for 24391894961
+2025-10-29 16:21:22,735 - __main__ - INFO - History recording result for 24391894961: True
+2025-10-29 16:21:22,737 - exports - INFO - Applying JournalExport M Code logic...
+2025-10-29 16:21:22,970 - exports - INFO - Flipping 320 expense transactions to credits
+2025-10-29 16:21:22,971 - exports - INFO - Expense accounts found: ['Amazon FBA Fulfillment Fees' 'Amazon Advertising Expense']
+2025-10-29 16:21:22,976 - exports - INFO - Before flip - sample expense row: [{'GL_Account': 'Amazon FBA Fulfillment Fees', 'Debit': 0.0, 'Credit': 8.25}]
+2025-10-29 16:21:22,986 - exports - INFO - After flip - sample expense row: [{'GL_Account': 'Amazon FBA Fulfillment Fees', 'Debit': 8.25, 'Credit': 0.0}]
+2025-10-29 16:21:23,044 - exports - INFO - Journal export prepared: 576 entries
+2025-10-29 16:21:23,061 - __main__ - DEBUG -   Settlement 24495221541 deposit_date: 2025-09-27
+2025-10-29 16:21:23,065 - __main__ - DEBUG -   Settlement 24495221541 date range: 2025-09-12 to 2025-09-25
+2025-10-29 16:21:23,066 - __main__ - INFO - Recording history for settlement 24495221541
+2025-10-29 16:21:23,096 - tracking - INFO - Settlement history recorded for 24495221541
+2025-10-29 16:21:23,097 - __main__ - INFO - History recording result for 24495221541: True
+2025-10-29 16:21:23,100 - exports - INFO - Applying JournalExport M Code logic...
+2025-10-29 16:21:23,320 - exports - INFO - Flipping 310 expense transactions to credits
+2025-10-29 16:21:23,320 - exports - INFO - Expense accounts found: ['Amazon FBA Fulfillment Fees' 'Amazon Advertising Expense'
+ 'Amazon Account Fees' 'Amazon Storage Expense']
+2025-10-29 16:21:23,321 - exports - INFO - Before flip - sample expense row: [{'GL_Account': 'Amazon FBA Fulfillment Fees', 'Debit': 0.0, 'Credit': 6.12}]
+2025-10-29 16:21:23,326 - exports - INFO - After flip - sample expense row: [{'GL_Account': 'Amazon FBA Fulfillment Fees', 'Debit': 6.12, 'Credit': 0.0}]
+2025-10-29 16:21:23,337 - exports - INFO - Journal export prepared: 538 entries
+2025-10-29 16:21:23,344 - __main__ - DEBUG -   Settlement 24596907561 deposit_date: 2025-10-11
+2025-10-29 16:21:23,346 - __main__ - DEBUG -   Settlement 24596907561 date range: 2025-09-26 to 2025-10-09
+2025-10-29 16:21:23,347 - __main__ - INFO - Recording history for settlement 24596907561
+2025-10-29 16:21:23,358 - tracking - INFO - Settlement history recorded for 24596907561
+2025-10-29 16:21:23,358 - __main__ - INFO - History recording result for 24596907561: True
+2025-10-29 16:21:23,358 - __main__ - INFO - Settlement history recorded for trending analysis
+2025-10-29 16:21:23,365 - validate_settlement - INFO - Validating settlement 23874396421...
+2025-10-29 16:21:23,378 - validate_settlement - INFO - Validation report saved: outputs\Validation_Errors_23874396421.csv
+2025-10-29 16:21:23,378 - validate_settlement - INFO - Validating settlement 23874397121...
+2025-10-29 16:21:23,409 - validate_settlement - INFO - Validation report saved: outputs\Validation_Errors_23874397121.csv
+2025-10-29 16:21:23,409 - validate_settlement - INFO - Validating settlement 24288684721...
+2025-10-29 16:21:23,444 - validate_settlement - INFO - Validation report saved: outputs\Validation_Errors_24288684721.csv
+2025-10-29 16:21:23,444 - validate_settlement - INFO - Validating settlement 24391894961...
+2025-10-29 16:21:23,497 - validate_settlement - INFO - Validation report saved: outputs\Validation_Errors_24391894961.csv
+2025-10-29 16:21:23,498 - validate_settlement - INFO - Validating settlement 24495221541...
+2025-10-29 16:21:23,554 - validate_settlement - INFO - Validation report saved: outputs\Validation_Errors_24495221541.csv
+2025-10-29 16:21:23,554 - validate_settlement - INFO - Validating settlement 24596907561...
+2025-10-29 16:21:23,602 - validate_settlement - INFO - Validation report saved: outputs\Validation_Errors_24596907561.csv
+2025-10-29 16:21:23,602 - exports - INFO - Generating Individual Settlement Summaries...
+2025-10-29 16:21:23,603 - exports - INFO - Generating summaries for 6 settlements: ['23874396421', '23874397121', '24288684721', '24391894961', '24495221541', '24596907561']
+2025-10-29 16:21:23,605 - exports - INFO - Applying JournalExport M Code logic...
+2025-10-29 16:21:23,615 - exports - INFO - Flipping 2 expense transactions to credits
+2025-10-29 16:21:23,616 - exports - INFO - Expense accounts found: ['Amazon Account Fees' 'Amazon Inbound Freight Charges']
+2025-10-29 16:21:23,617 - exports - INFO - Before flip - sample expense row: [{'GL_Account': 'Amazon Account Fees', 'Debit': 0.0, 'Credit': 32.09}]
+2025-10-29 16:21:23,620 - exports - INFO - After flip - sample expense row: [{'GL_Account': 'Amazon Account Fees', 'Debit': 32.09, 'Credit': 0.0}]
+2025-10-29 16:21:23,625 - exports - INFO - Journal export prepared: 4 entries
+2025-10-29 16:21:23,627 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:23,641 - exports - INFO - Invoice export prepared: 0 total lines (0 standard, 0 $0 transactions)
+2025-10-29 16:21:23,741 - exports - INFO - Settlement summary saved: outputs\Summary_23874396421.xlsx
+2025-10-29 16:21:23,743 - exports - INFO - Applying JournalExport M Code logic...
+2025-10-29 16:21:23,754 - exports - INFO - Flipping 8 expense transactions to credits
+2025-10-29 16:21:23,755 - exports - INFO - Expense accounts found: ['Amazon Account Fees' 'Amazon Advertising Expense'
+ 'Amazon FBA Fulfillment Fees']
+2025-10-29 16:21:23,756 - exports - INFO - Before flip - sample expense row: [{'GL_Account': 'Amazon Account Fees', 'Debit': 0.0, 'Credit': 32.09}]
+2025-10-29 16:21:23,760 - exports - INFO - After flip - sample expense row: [{'GL_Account': 'Amazon Account Fees', 'Debit': 32.09, 'Credit': 0.0}]
+2025-10-29 16:21:23,769 - exports - INFO - Journal export prepared: 16 entries
+2025-10-29 16:21:23,771 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:23,791 - exports - INFO - Invoice export prepared: 1 total lines (1 standard, 0 $0 transactions)
+2025-10-29 16:21:23,802 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:23,819 - exports - INFO - Invoice export prepared: 1 total lines (1 standard, 0 $0 transactions)
+2025-10-29 16:21:23,889 - exports - INFO - Settlement summary saved: outputs\Summary_23874397121.xlsx
+2025-10-29 16:21:23,892 - exports - INFO - Applying JournalExport M Code logic...
+2025-10-29 16:21:23,938 - exports - INFO - Flipping 94 expense transactions to credits
+2025-10-29 16:21:23,939 - exports - INFO - Expense accounts found: ['Amazon FBA Fulfillment Fees' 'Amazon Advertising Expense']
+2025-10-29 16:21:23,941 - exports - INFO - Before flip - sample expense row: [{'GL_Account': 'Amazon FBA Fulfillment Fees', 'Debit': 0.0, 'Credit': 7.71}]
+2025-10-29 16:21:23,945 - exports - INFO - After flip - sample expense row: [{'GL_Account': 'Amazon FBA Fulfillment Fees', 'Debit': 7.71, 'Credit': 0.0}]
+2025-10-29 16:21:23,955 - exports - INFO - Journal export prepared: 154 entries
+2025-10-29 16:21:23,958 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:23,987 - exports - INFO - Invoice export prepared: 40 total lines (39 standard, 1 $0 transactions)
+2025-10-29 16:21:24,003 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:24,038 - exports - INFO - Invoice export prepared: 40 total lines (39 standard, 1 $0 transactions)
+2025-10-29 16:21:24,116 - exports - INFO - Settlement summary saved: outputs\Summary_24288684721.xlsx
+2025-10-29 16:21:24,119 - exports - INFO - Applying JournalExport M Code logic...
+2025-10-29 16:21:24,226 - exports - INFO - Flipping 217 expense transactions to credits
+2025-10-29 16:21:24,226 - exports - INFO - Expense accounts found: ['Amazon FBA Fulfillment Fees' 'Amazon Advertising Expense'
+ 'Amazon Account Fees' 'Amazon Storage Expense']
+2025-10-29 16:21:24,227 - exports - INFO - Before flip - sample expense row: [{'GL_Account': 'Amazon FBA Fulfillment Fees', 'Debit': 0.0, 'Credit': 9.63}]
+2025-10-29 16:21:24,231 - exports - INFO - After flip - sample expense row: [{'GL_Account': 'Amazon FBA Fulfillment Fees', 'Debit': 9.63, 'Credit': 0.0}]
+2025-10-29 16:21:24,242 - exports - INFO - Journal export prepared: 387 entries
+2025-10-29 16:21:24,246 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:24,328 - exports - INFO - Invoice export prepared: 106 total lines (106 standard, 0 $0 transactions)
+2025-10-29 16:21:24,357 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:24,452 - exports - INFO - Invoice export prepared: 106 total lines (106 standard, 0 $0 transactions)
+2025-10-29 16:21:24,561 - exports - INFO - Settlement summary saved: outputs\Summary_24391894961.xlsx
+2025-10-29 16:21:24,565 - exports - INFO - Applying JournalExport M Code logic...
+2025-10-29 16:21:24,836 - exports - INFO - Flipping 320 expense transactions to credits
+2025-10-29 16:21:24,837 - exports - INFO - Expense accounts found: ['Amazon FBA Fulfillment Fees' 'Amazon Advertising Expense']
+2025-10-29 16:21:24,841 - exports - INFO - Before flip - sample expense row: [{'GL_Account': 'Amazon FBA Fulfillment Fees', 'Debit': 0.0, 'Credit': 8.25}]
+2025-10-29 16:21:24,846 - exports - INFO - After flip - sample expense row: [{'GL_Account': 'Amazon FBA Fulfillment Fees', 'Debit': 8.25, 'Credit': 0.0}]
+2025-10-29 16:21:24,869 - exports - INFO - Journal export prepared: 576 entries
+2025-10-29 16:21:24,874 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:25,042 - exports - INFO - Invoice export prepared: 158 total lines (157 standard, 1 $0 transactions)
+2025-10-29 16:21:25,085 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:25,188 - exports - INFO - Invoice export prepared: 158 total lines (157 standard, 1 $0 transactions)
+2025-10-29 16:21:25,270 - exports - INFO - Settlement summary saved: outputs\Summary_24495221541.xlsx
+2025-10-29 16:21:25,273 - exports - INFO - Applying JournalExport M Code logic...
+2025-10-29 16:21:25,409 - exports - INFO - Flipping 310 expense transactions to credits
+2025-10-29 16:21:25,410 - exports - INFO - Expense accounts found: ['Amazon FBA Fulfillment Fees' 'Amazon Advertising Expense'
+ 'Amazon Account Fees' 'Amazon Storage Expense']
+2025-10-29 16:21:25,411 - exports - INFO - Before flip - sample expense row: [{'GL_Account': 'Amazon FBA Fulfillment Fees', 'Debit': 0.0, 'Credit': 6.12}]
+2025-10-29 16:21:25,415 - exports - INFO - After flip - sample expense row: [{'GL_Account': 'Amazon FBA Fulfillment Fees', 'Debit': 6.12, 'Credit': 0.0}]
+2025-10-29 16:21:25,428 - exports - INFO - Journal export prepared: 538 entries
+2025-10-29 16:21:25,430 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:25,538 - exports - INFO - Invoice export prepared: 153 total lines (153 standard, 0 $0 transactions)
+2025-10-29 16:21:25,662 - exports - INFO - Applying InvoiceExport M Code logic...
+2025-10-29 16:21:25,758 - exports - INFO - Invoice export prepared: 153 total lines (153 standard, 0 $0 transactions)
+2025-10-29 16:21:25,844 - exports - INFO - Settlement summary saved: outputs\Summary_24596907561.xlsx
+2025-10-29 16:21:25,844 - exports - INFO - All settlement summaries generated successfully (6/6)
+2025-10-29 16:21:25,844 - __main__ - INFO - Individual settlement summaries generated successfully
+2025-10-29 16:21:25,844 - __main__ - INFO - Organizing outputs by settlement...
+2025-10-29 16:21:25,846 - __main__ - INFO - Removed existing folder: 23874396421
+2025-10-29 16:21:25,847 - __main__ - INFO - Created output folder: 23874396421
+2025-10-29 16:21:25,848 - __main__ - INFO -   Moved GL_Account_Summary_23874396421.csv to 23874396421/
+2025-10-29 16:21:25,849 - __main__ - INFO -   Moved GL_Mapping_Reference_23874396421.csv to 23874396421/
+2025-10-29 16:21:25,850 - __main__ - INFO -   Moved Journal_23874396421.csv to 23874396421/
+2025-10-29 16:21:25,851 - __main__ - INFO -   Moved Summary_23874396421.xlsx to 23874396421/
+2025-10-29 16:21:25,851 - __main__ - INFO -   Moved Validation_Errors_23874396421.csv to 23874396421/
+2025-10-29 16:21:25,854 - __main__ - INFO - Removed existing folder: 23874397121
+2025-10-29 16:21:25,854 - __main__ - INFO - Created output folder: 23874397121
+2025-10-29 16:21:25,855 - __main__ - INFO -   Moved GL_Account_Summary_23874397121.csv to 23874397121/
+2025-10-29 16:21:25,856 - __main__ - INFO -   Moved GL_Mapping_Reference_23874397121.csv to 23874397121/
+2025-10-29 16:21:25,857 - __main__ - INFO -   Moved Invoice_23874397121.csv to 23874397121/
+2025-10-29 16:21:25,858 - __main__ - INFO -   Moved Journal_23874397121.csv to 23874397121/
+2025-10-29 16:21:25,859 - __main__ - INFO -   Moved Payment_23874397121.csv to 23874397121/
+2025-10-29 16:21:25,860 - __main__ - INFO -   Moved Summary_23874397121.xlsx to 23874397121/
+2025-10-29 16:21:25,861 - __main__ - INFO -   Moved Validation_Errors_23874397121.csv to 23874397121/
+2025-10-29 16:21:25,864 - __main__ - INFO - Removed existing folder: 24288684721
+2025-10-29 16:21:25,864 - __main__ - INFO - Created output folder: 24288684721
+2025-10-29 16:21:25,865 - __main__ - INFO -   Moved GL_Account_Summary_24288684721.csv to 24288684721/
+2025-10-29 16:21:25,866 - __main__ - INFO -   Moved GL_Mapping_Reference_24288684721.csv to 24288684721/
+2025-10-29 16:21:25,867 - __main__ - INFO -   Moved Invoice_24288684721.csv to 24288684721/
+2025-10-29 16:21:25,868 - __main__ - INFO -   Moved Journal_24288684721.csv to 24288684721/
+2025-10-29 16:21:25,869 - __main__ - INFO -   Moved Payment_24288684721.csv to 24288684721/
+2025-10-29 16:21:25,869 - __main__ - INFO -   Moved Summary_24288684721.xlsx to 24288684721/
+2025-10-29 16:21:25,870 - __main__ - INFO -   Moved Validation_Errors_24288684721.csv to 24288684721/
+2025-10-29 16:21:25,872 - __main__ - INFO - Removed existing folder: 24391894961
+2025-10-29 16:21:25,873 - __main__ - INFO - Created output folder: 24391894961
+2025-10-29 16:21:25,874 - __main__ - INFO -   Moved GL_Account_Summary_24391894961.csv to 24391894961/
+2025-10-29 16:21:25,875 - __main__ - INFO -   Moved GL_Mapping_Reference_24391894961.csv to 24391894961/
+2025-10-29 16:21:25,876 - __main__ - INFO -   Moved Invoice_24391894961.csv to 24391894961/
+2025-10-29 16:21:25,877 - __main__ - INFO -   Moved Journal_24391894961.csv to 24391894961/
+2025-10-29 16:21:25,878 - __main__ - INFO -   Moved Payment_24391894961.csv to 24391894961/
+2025-10-29 16:21:25,878 - __main__ - INFO -   Moved Summary_24391894961.xlsx to 24391894961/
+2025-10-29 16:21:25,879 - __main__ - INFO -   Moved Validation_Errors_24391894961.csv to 24391894961/
+2025-10-29 16:21:25,882 - __main__ - INFO - Removed existing folder: 24495221541
+2025-10-29 16:21:25,883 - __main__ - INFO - Created output folder: 24495221541
+2025-10-29 16:21:25,884 - __main__ - INFO -   Moved GL_Account_Summary_24495221541.csv to 24495221541/
+2025-10-29 16:21:25,884 - __main__ - INFO -   Moved GL_Mapping_Reference_24495221541.csv to 24495221541/
+2025-10-29 16:21:25,885 - __main__ - INFO -   Moved Invoice_24495221541.csv to 24495221541/
+2025-10-29 16:21:25,886 - __main__ - INFO -   Moved Journal_24495221541.csv to 24495221541/
+2025-10-29 16:21:25,887 - __main__ - INFO -   Moved Payment_24495221541.csv to 24495221541/
+2025-10-29 16:21:25,888 - __main__ - INFO -   Moved Summary_24495221541.xlsx to 24495221541/
+2025-10-29 16:21:25,888 - __main__ - INFO -   Moved Validation_Errors_24495221541.csv to 24495221541/
+2025-10-29 16:21:25,892 - __main__ - INFO - Removed existing folder: 24596907561
+2025-10-29 16:21:25,892 - __main__ - INFO - Created output folder: 24596907561
+2025-10-29 16:21:25,893 - __main__ - INFO -   Moved GL_Account_Summary_24596907561.csv to 24596907561/
+2025-10-29 16:21:25,894 - __main__ - INFO -   Moved GL_Mapping_Reference_24596907561.csv to 24596907561/
+2025-10-29 16:21:25,895 - __main__ - INFO -   Moved Invoice_24596907561.csv to 24596907561/
+2025-10-29 16:21:25,896 - __main__ - INFO -   Moved Journal_24596907561.csv to 24596907561/
+2025-10-29 16:21:25,920 - __main__ - INFO -   Moved Payment_24596907561.csv to 24596907561/
+2025-10-29 16:21:25,921 - __main__ - INFO -   Moved Summary_24596907561.xlsx to 24596907561/
+2025-10-29 16:21:25,921 - __main__ - INFO -   Moved Validation_Errors_24596907561.csv to 24596907561/
+2025-10-29 16:21:25,922 - __main__ - INFO - Dashboard_Summary.xlsx remains in outputs root
+2025-10-29 16:21:25,922 - __main__ - INFO - Syncing outputs to SharePoint: C:\Users\User\Touchstone Brands\BrackishCo - Documents\Sharepoint_Public\Amazon-ETL\2-Processed
+2025-10-29 16:21:25,932 - __main__ - INFO -   Synced folder: 23874396421
+2025-10-29 16:21:25,945 - __main__ - INFO -   Synced folder: 23874397121
+2025-10-29 16:21:25,955 - __main__ - INFO -   Synced folder: 24288684721
+2025-10-29 16:21:25,967 - __main__ - INFO -   Synced folder: 24391894961
+2025-10-29 16:21:25,980 - __main__ - INFO -   Synced folder: 24495221541
+2025-10-29 16:21:25,991 - __main__ - INFO -   Synced folder: 24596907561
+2025-10-29 16:21:25,993 - __main__ - INFO -   Synced file: Dashboard_Summary.xlsx
+2025-10-29 16:21:25,993 - __main__ - INFO - SharePoint sync completed
+2025-10-29 16:21:25,993 - __main__ - INFO - === ETL Pipeline Completed Successfully ===

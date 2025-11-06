@@ -1,0 +1,2 @@
+check_date,clearing_account_id,clearing_account_name,clearing_balance,invoice_count,invoice_total,invoice_balance,unpaid_invoice_count,payment_count,payment_total,invoice_payment_difference,all_balanced
+2025-11-04 09:59:45,73985000000048001,Amazon.ca Clearing,0.0,433,25129.81,25129.81,431,431,25006.14,123.67,False

@@ -1,0 +1,5 @@
+metric,value
+expected_invoice_total,25251.38
+zoho_invoice_total_ytd,52814.5
+zoho_payment_total_ytd,50317.25
+all_settlements_balanced,True

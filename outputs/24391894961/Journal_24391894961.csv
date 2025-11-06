@@ -1,0 +1,388 @@
+﻿Date,Reference Number,Journal Type,GL_Account,Description,Debit,Credit,Notes
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,60.0,Row ID: 235 - Merchant Order ID: 701-7760636-0198669
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 237 - Merchant Order ID: 701-7760636-0198669
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,7.95,0.0,Row ID: 236 - Merchant Order ID: 701-7760636-0198669
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,60.0,Row ID: 217 - Merchant Order ID: 701-9652952-9949808
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,7.95,0.0,Row ID: 218 - Merchant Order ID: 701-9652952-9949808
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 219 - Merchant Order ID: 701-9652952-9949808
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,5.62,0.0,Row ID: 305 - Merchant Order ID: 702-5082669-1235459
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,35.0,Row ID: 303 - Merchant Order ID: 702-5082669-1235459
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,6.12,0.0,Row ID: 304 - Merchant Order ID: 702-5082669-1235459
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,60.0,Row ID: 291 - Merchant Order ID: 702-7923655-8502622
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.11,0.0,Row ID: 292 - Merchant Order ID: 702-7923655-8502622
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 293 - Merchant Order ID: 702-7923655-8502622
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,5.62,0.0,Row ID: 301 - Merchant Order ID: 702-2270868-4288202
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,6.12,0.0,Row ID: 300 - Merchant Order ID: 702-2270868-4288202
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,35.0,Row ID: 299 - Merchant Order ID: 702-2270868-4288202
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 240 - Merchant Order ID: 701-0191389-1137035
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 241 - Merchant Order ID: 701-0191389-1137035
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,60.0,Row ID: 239 - Merchant Order ID: 701-0191389-1137035
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,35.0,Row ID: 231 - Merchant Order ID: 701-7641265-1158631
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,6.12,0.0,Row ID: 232 - Merchant Order ID: 701-7641265-1158631
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,5.62,0.0,Row ID: 233 - Merchant Order ID: 701-7641265-1158631
+2025-09-13,24391894961,both,Amazon Advertising Expense,ServiceFee/Cost of Advertising/TaxAmount,352.64,0.0,Row ID: 306 - Merchant Order ID: nan
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.11,0.0,Row ID: 296 - Merchant Order ID: 702-3293085-2583441
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 297 - Merchant Order ID: 702-3293085-2583441
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,60.0,Row ID: 295 - Merchant Order ID: 702-3293085-2583441
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,60.0,Row ID: 243 - Merchant Order ID: 702-8935554-9302633
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 244 - Merchant Order ID: 702-8935554-9302633
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 245 - Merchant Order ID: 702-8935554-9302633
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,60.0,Row ID: 213 - Merchant Order ID: 702-8856509-3250656
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 214 - Merchant Order ID: 702-8856509-3250656
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 215 - Merchant Order ID: 702-8856509-3250656
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,3.92,Row ID: 283 - Merchant Order ID: 702-4828738-8692211
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 282 - Merchant Order ID: 702-4828738-8692211
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 281 - Merchant Order ID: 702-4828738-8692211
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,3.92,Row ID: 280 - Merchant Order ID: 702-4828738-8692211
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,60.0,Row ID: 279 - Merchant Order ID: 702-4828738-8692211
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,60.0,Row ID: 259 - Merchant Order ID: 701-8757043-3949017
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.11,0.0,Row ID: 260 - Merchant Order ID: 701-8757043-3949017
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 261 - Merchant Order ID: 701-8757043-3949017
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,6.99,Row ID: 289 - Merchant Order ID: 701-9374938-0987469
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 288 - Merchant Order ID: 701-9374938-0987469
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.83,0.0,Row ID: 287 - Merchant Order ID: 701-9374938-0987469
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,6.99,Row ID: 286 - Merchant Order ID: 701-9374938-0987469
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,60.0,Row ID: 285 - Merchant Order ID: 701-9374938-0987469
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,60.0,Row ID: 263 - Merchant Order ID: 701-6033445-1101826
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.83,0.0,Row ID: 264 - Merchant Order ID: 701-6033445-1101826
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 265 - Merchant Order ID: 701-6033445-1101826
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,60.0,Row ID: 271 - Merchant Order ID: 701-2378593-5540245
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.11,0.0,Row ID: 272 - Merchant Order ID: 701-2378593-5540245
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 273 - Merchant Order ID: 701-2378593-5540245
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,5.62,0.0,Row ID: 253 - Merchant Order ID: 701-9354910-0482659
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,6.12,0.0,Row ID: 252 - Merchant Order ID: 701-9354910-0482659
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,35.0,Row ID: 251 - Merchant Order ID: 701-9354910-0482659
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,35.0,Row ID: 247 - Merchant Order ID: 702-0594927-0250631
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,6.12,0.0,Row ID: 248 - Merchant Order ID: 702-0594927-0250631
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,5.62,0.0,Row ID: 249 - Merchant Order ID: 702-0594927-0250631
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,60.0,Row ID: 267 - Merchant Order ID: 702-2778700-4460228
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 268 - Merchant Order ID: 702-2778700-4460228
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 269 - Merchant Order ID: 702-2778700-4460228
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 277 - Merchant Order ID: 702-9981370-3317810
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.49,0.0,Row ID: 276 - Merchant Order ID: 702-9981370-3317810
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,60.0,Row ID: 275 - Merchant Order ID: 702-9981370-3317810
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 229 - Merchant Order ID: 701-4521567-9775406
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.49,0.0,Row ID: 228 - Merchant Order ID: 701-4521567-9775406
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,60.0,Row ID: 227 - Merchant Order ID: 701-4521567-9775406
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,35.0,Row ID: 255 - Merchant Order ID: 701-0148205-8791470
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,5.62,0.0,Row ID: 257 - Merchant Order ID: 701-0148205-8791470
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,6.12,0.0,Row ID: 256 - Merchant Order ID: 701-0148205-8791470
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 223 - Merchant Order ID: 702-9638847-9622624
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 224 - Merchant Order ID: 702-9638847-9622624
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,60.0,Row ID: 221 - Merchant Order ID: 702-9638847-9622624
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,5.9,Row ID: 222 - Merchant Order ID: 702-9638847-9622624
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,5.9,Row ID: 225 - Merchant Order ID: 702-9638847-9622624
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,5.62,0.0,Row ID: 480 - Merchant Order ID: 702-4071942-0798647
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,6.12,0.0,Row ID: 479 - Merchant Order ID: 702-4071942-0798647
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,35.0,Row ID: 478 - Merchant Order ID: 702-4071942-0798647
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,60.0,Row ID: 454 - Merchant Order ID: 702-1130946-4169855
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 456 - Merchant Order ID: 702-1130946-4169855
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,7.95,0.0,Row ID: 455 - Merchant Order ID: 702-1130946-4169855
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,3.49,Row ID: 374 - Merchant Order ID: 702-7151359-5097815
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 370 - Merchant Order ID: 702-7151359-5097815
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,3.49,Row ID: 371 - Merchant Order ID: 702-7151359-5097815
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 372 - Merchant Order ID: 702-7151359-5097815
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 373 - Merchant Order ID: 702-7151359-5097815
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 361 - Merchant Order ID: 701-8336486-1261839
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,60.0,Row ID: 360 - Merchant Order ID: 701-8336486-1261839
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 362 - Merchant Order ID: 701-8336486-1261839
+2025-09-13,24391894961,both,Amazon Advertising Expense,ServiceFee/Cost of Advertising/TaxAmount,432.45,0.0,Row ID: 496 - Merchant Order ID: nan
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,3.37,Row ID: 408 - Merchant Order ID: 701-6087343-6906636
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,60.0,Row ID: 404 - Merchant Order ID: 701-6087343-6906636
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,3.37,Row ID: 405 - Merchant Order ID: 701-6087343-6906636
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.11,0.0,Row ID: 406 - Merchant Order ID: 701-6087343-6906636
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 407 - Merchant Order ID: 701-6087343-6906636
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 472 - Merchant Order ID: 701-8091602-5121067
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.49,0.0,Row ID: 471 - Merchant Order ID: 701-8091602-5121067
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 470 - Merchant Order ID: 701-8091602-5121067
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.11,0.0,Row ID: 315 - Merchant Order ID: 702-7888704-0046613
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,60.0,Row ID: 314 - Merchant Order ID: 702-7888704-0046613
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 316 - Merchant Order ID: 702-7888704-0046613
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 475 - Merchant Order ID: 701-4837707-7785045
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 476 - Merchant Order ID: 701-4837707-7785045
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 474 - Merchant Order ID: 701-4837707-7785045
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 340 - Merchant Order ID: 701-6811859-6707413
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.68,0.0,Row ID: 339 - Merchant Order ID: 701-6811859-6707413
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,60.0,Row ID: 338 - Merchant Order ID: 701-6811859-6707413
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 420 - Merchant Order ID: 702-6291395-0421860
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 423 - Merchant Order ID: 702-6291395-0421860
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,6.99,Row ID: 424 - Merchant Order ID: 702-6291395-0421860
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,6.99,Row ID: 421 - Merchant Order ID: 702-6291395-0421860
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.83,0.0,Row ID: 422 - Merchant Order ID: 702-6291395-0421860
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.83,0.0,Row ID: 324 - Merchant Order ID: 701-2878968-6056244
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 325 - Merchant Order ID: 701-2878968-6056244
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,6.99,Row ID: 326 - Merchant Order ID: 701-2878968-6056244
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 322 - Merchant Order ID: 701-2878968-6056244
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,6.99,Row ID: 323 - Merchant Order ID: 701-2878968-6056244
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 402 - Merchant Order ID: 701-1304616-2825843
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 400 - Merchant Order ID: 701-1304616-2825843
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,7.95,0.0,Row ID: 401 - Merchant Order ID: 701-1304616-2825843
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,6.12,0.0,Row ID: 488 - Merchant Order ID: 701-1188530-2429800
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,5.62,0.0,Row ID: 489 - Merchant Order ID: 701-1188530-2429800
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,3.49,Row ID: 490 - Merchant Order ID: 701-1188530-2429800
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,34.99,Row ID: 486 - Merchant Order ID: 701-1188530-2429800
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,3.49,Row ID: 487 - Merchant Order ID: 701-1188530-2429800
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,6.12,0.0,Row ID: 310 - Merchant Order ID: 701-9529367-6800247
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,5.62,0.0,Row ID: 311 - Merchant Order ID: 701-9529367-6800247
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,2.33,Row ID: 312 - Merchant Order ID: 701-9529367-6800247
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,2.33,Row ID: 309 - Merchant Order ID: 701-9529367-6800247
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,34.99,Row ID: 308 - Merchant Order ID: 701-9529367-6800247
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,3.49,Row ID: 387 - Merchant Order ID: 701-9060804-5232255
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 388 - Merchant Order ID: 701-9060804-5232255
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 389 - Merchant Order ID: 701-9060804-5232255
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 386 - Merchant Order ID: 701-9060804-5232255
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,3.49,Row ID: 390 - Merchant Order ID: 701-9060804-5232255
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 482 - Merchant Order ID: 702-9550393-5627437
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,7.71,0.0,Row ID: 483 - Merchant Order ID: 702-9550393-5627437
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 484 - Merchant Order ID: 702-9550393-5627437
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 354 - Merchant Order ID: 702-9405931-7315405
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,6.99,Row ID: 355 - Merchant Order ID: 702-9405931-7315405
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.11,0.0,Row ID: 356 - Merchant Order ID: 702-9405931-7315405
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 357 - Merchant Order ID: 702-9405931-7315405
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,6.99,Row ID: 358 - Merchant Order ID: 702-9405931-7315405
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 344 - Merchant Order ID: 702-4452336-4263438
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 342 - Merchant Order ID: 702-4452336-4263438
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.11,0.0,Row ID: 343 - Merchant Order ID: 702-4452336-4263438
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,34.99,Row ID: 318 - Merchant Order ID: 702-4938486-1222614
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,6.12,0.0,Row ID: 319 - Merchant Order ID: 702-4938486-1222614
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,5.62,0.0,Row ID: 320 - Merchant Order ID: 702-4938486-1222614
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 392 - Merchant Order ID: 702-4258543-5930661
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 394 - Merchant Order ID: 702-4258543-5930661
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 393 - Merchant Order ID: 702-4258543-5930661
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,5.62,0.0,Row ID: 464 - Merchant Order ID: 701-7074412-1658633
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,6.12,0.0,Row ID: 463 - Merchant Order ID: 701-7074412-1658633
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,35.0,Row ID: 462 - Merchant Order ID: 701-7074412-1658633
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 436 - Merchant Order ID: 701-2446287-7285048
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 435 - Merchant Order ID: 701-2446287-7285048
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 434 - Merchant Order ID: 701-2446287-7285048
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 493 - Merchant Order ID: 702-1925088-7362642
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 494 - Merchant Order ID: 702-1925088-7362642
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 492 - Merchant Order ID: 702-1925088-7362642
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,2.94,Row ID: 336 - Merchant Order ID: 702-8069095-7876222
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 334 - Merchant Order ID: 702-8069095-7876222
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 335 - Merchant Order ID: 702-8069095-7876222
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,2.94,Row ID: 333 - Merchant Order ID: 702-8069095-7876222
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,60.0,Row ID: 332 - Merchant Order ID: 702-8069095-7876222
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,34.99,Row ID: 448 - Merchant Order ID: 702-5350612-0669026
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,1.74,Row ID: 449 - Merchant Order ID: 702-5350612-0669026
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,6.12,0.0,Row ID: 450 - Merchant Order ID: 702-5350612-0669026
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,5.62,0.0,Row ID: 451 - Merchant Order ID: 702-5350612-0669026
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,1.74,Row ID: 452 - Merchant Order ID: 702-5350612-0669026
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,6.12,0.0,Row ID: 427 - Merchant Order ID: 701-9563813-0346635
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,34.99,Row ID: 426 - Merchant Order ID: 701-9563813-0346635
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,5.62,0.0,Row ID: 428 - Merchant Order ID: 701-9563813-0346635
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 348 - Merchant Order ID: 702-7388493-7401864
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.11,0.0,Row ID: 347 - Merchant Order ID: 702-7388493-7401864
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 346 - Merchant Order ID: 702-7388493-7401864
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.11,0.0,Row ID: 431 - Merchant Order ID: 702-1538917-3845864
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 430 - Merchant Order ID: 702-1538917-3845864
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 432 - Merchant Order ID: 702-1538917-3845864
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 380 - Merchant Order ID: 701-9363519-6860248
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,1.0,Row ID: 381 - Merchant Order ID: 701-9363519-6860248
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 382 - Merchant Order ID: 701-9363519-6860248
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 383 - Merchant Order ID: 701-9363519-6860248
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,1.0,Row ID: 384 - Merchant Order ID: 701-9363519-6860248
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,60.0,Row ID: 364 - Merchant Order ID: 702-2099852-3149825
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,2.74,Row ID: 365 - Merchant Order ID: 702-2099852-3149825
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 366 - Merchant Order ID: 702-2099852-3149825
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 367 - Merchant Order ID: 702-2099852-3149825
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,2.74,Row ID: 368 - Merchant Order ID: 702-2099852-3149825
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 378 - Merchant Order ID: 702-0343946-0517844
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 377 - Merchant Order ID: 702-0343946-0517844
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 376 - Merchant Order ID: 702-0343946-0517844
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 445 - Merchant Order ID: 702-0109464-5216262
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 444 - Merchant Order ID: 702-0109464-5216262
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 446 - Merchant Order ID: 702-0109464-5216262
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 459 - Merchant Order ID: 702-1967865-9691467
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 458 - Merchant Order ID: 702-1967865-9691467
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 460 - Merchant Order ID: 702-1967865-9691467
+2025-09-13,24391894961,both,Amazon Account Fees,Subscription Fee,32.09,0.0,Row ID: 495 - Merchant Order ID: nan
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,34.99,Row ID: 416 - Merchant Order ID: 701-3188829-7933867
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,5.62,0.0,Row ID: 418 - Merchant Order ID: 701-3188829-7933867
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,6.12,0.0,Row ID: 417 - Merchant Order ID: 701-3188829-7933867
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,6.99,Row ID: 414 - Merchant Order ID: 702-1607186-5263404
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 413 - Merchant Order ID: 702-1607186-5263404
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 412 - Merchant Order ID: 702-1607186-5263404
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,6.99,Row ID: 411 - Merchant Order ID: 702-1607186-5263404
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 410 - Merchant Order ID: 702-1607186-5263404
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,3.5,Row ID: 442 - Merchant Order ID: 701-1964061-9657012
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 441 - Merchant Order ID: 701-1964061-9657012
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 440 - Merchant Order ID: 701-1964061-9657012
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,3.5,Row ID: 439 - Merchant Order ID: 701-1964061-9657012
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 438 - Merchant Order ID: 701-1964061-9657012
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 330 - Merchant Order ID: 702-6090569-5313846
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.11,0.0,Row ID: 329 - Merchant Order ID: 702-6090569-5313846
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 328 - Merchant Order ID: 702-6090569-5313846
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 350 - Merchant Order ID: 701-5157740-0719458
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 352 - Merchant Order ID: 701-5157740-0719458
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 351 - Merchant Order ID: 701-5157740-0719458
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,5.62,0.0,Row ID: 468 - Merchant Order ID: 701-3144118-7293847
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,6.12,0.0,Row ID: 467 - Merchant Order ID: 701-3144118-7293847
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,34.99,Row ID: 466 - Merchant Order ID: 701-3144118-7293847
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 396 - Merchant Order ID: 702-5908241-3066651
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,7.95,0.0,Row ID: 397 - Merchant Order ID: 702-5908241-3066651
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 398 - Merchant Order ID: 702-5908241-3066651
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 498 - Merchant Order ID: 701-1357384-6467418
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,3.49,Row ID: 499 - Merchant Order ID: 701-1357384-6467418
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 500 - Merchant Order ID: 701-1357384-6467418
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 501 - Merchant Order ID: 701-1357384-6467418
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,3.49,Row ID: 502 - Merchant Order ID: 701-1357384-6467418
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,6.99,Row ID: 531 - Merchant Order ID: 702-8052070-2152201
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 532 - Merchant Order ID: 702-8052070-2152201
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 533 - Merchant Order ID: 702-8052070-2152201
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,6.99,Row ID: 534 - Merchant Order ID: 702-8052070-2152201
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 530 - Merchant Order ID: 702-8052070-2152201
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 560 - Merchant Order ID: 701-0839688-4721055
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 561 - Merchant Order ID: 701-0839688-4721055
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 562 - Merchant Order ID: 701-0839688-4721055
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,5.62,0.0,Row ID: 550 - Merchant Order ID: 701-3247476-5865067
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,6.12,0.0,Row ID: 549 - Merchant Order ID: 701-3247476-5865067
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,34.99,Row ID: 548 - Merchant Order ID: 701-3247476-5865067
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 676 - Merchant Order ID: 702-0262560-2281016
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.83,0.0,Row ID: 677 - Merchant Order ID: 702-0262560-2281016
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 678 - Merchant Order ID: 702-0262560-2281016
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 610 - Merchant Order ID: 701-1124921-3485022
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 609 - Merchant Order ID: 701-1124921-3485022
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 608 - Merchant Order ID: 701-1124921-3485022
+2025-09-13,24391894961,both,Amazon Advertising Expense,ServiceFee/Cost of Advertising/TaxAmount,500.38,0.0,Row ID: 700 - Merchant Order ID: nan
+2025-09-13,24391894961,both,Amazon Storage Expense,Storage Fee,160.1,0.0,Row ID: 699 - Merchant Order ID: nan
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.11,0.0,Row ID: 661 - Merchant Order ID: 701-2905782-5887442
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 662 - Merchant Order ID: 701-2905782-5887442
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 660 - Merchant Order ID: 701-2905782-5887442
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 668 - Merchant Order ID: 702-6702647-5289017
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,7.95,0.0,Row ID: 669 - Merchant Order ID: 702-6702647-5289017
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 670 - Merchant Order ID: 702-6702647-5289017
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,6.99,Row ID: 572 - Merchant Order ID: 701-2649574-4309067
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 570 - Merchant Order ID: 701-2649574-4309067
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,6.99,Row ID: 569 - Merchant Order ID: 701-2649574-4309067
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 568 - Merchant Order ID: 701-2649574-4309067
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 571 - Merchant Order ID: 701-2649574-4309067
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 680 - Merchant Order ID: 701-7811386-4664263
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/ShippingChargeback,0.0,0.68,Row ID: 684 - Merchant Order ID: 701-7811386-4664263
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,0.68,Row ID: 681 - Merchant Order ID: 701-7811386-4664263
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 682 - Merchant Order ID: 701-7811386-4664263
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 683 - Merchant Order ID: 701-7811386-4664263
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 592 - Merchant Order ID: 702-9904079-3436254
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 593 - Merchant Order ID: 702-9904079-3436254
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 594 - Merchant Order ID: 702-9904079-3436254
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 612 - Merchant Order ID: 702-8533296-7191431
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 613 - Merchant Order ID: 702-8533296-7191431
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 614 - Merchant Order ID: 702-8533296-7191431
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 574 - Merchant Order ID: 702-9714042-6696215
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,3.5,Row ID: 575 - Merchant Order ID: 702-9714042-6696215
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.11,0.0,Row ID: 576 - Merchant Order ID: 702-9714042-6696215
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 577 - Merchant Order ID: 702-9714042-6696215
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,3.5,Row ID: 578 - Merchant Order ID: 702-9714042-6696215
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,16.22,0.0,Row ID: 649 - Merchant Order ID: 701-8564922-5240248
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,19.26,0.0,Row ID: 650 - Merchant Order ID: 701-8564922-5240248
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,119.98,Row ID: 648 - Merchant Order ID: 701-8564922-5240248
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 692 - Merchant Order ID: 701-2100241-5897056
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 693 - Merchant Order ID: 701-2100241-5897056
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,6.99,Row ID: 694 - Merchant Order ID: 701-2100241-5897056
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,6.99,Row ID: 691 - Merchant Order ID: 701-2100241-5897056
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 690 - Merchant Order ID: 701-2100241-5897056
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 656 - Merchant Order ID: 702-5131278-9599408
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 658 - Merchant Order ID: 702-5131278-9599408
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 657 - Merchant Order ID: 702-5131278-9599408
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 629 - Merchant Order ID: 701-4440246-3023422
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 628 - Merchant Order ID: 701-4440246-3023422
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 630 - Merchant Order ID: 701-4440246-3023422
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 581 - Merchant Order ID: 701-2794064-5544235
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 580 - Merchant Order ID: 701-2794064-5544235
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 582 - Merchant Order ID: 701-2794064-5544235
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 654 - Merchant Order ID: 702-6087274-2693034
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.49,0.0,Row ID: 653 - Merchant Order ID: 702-6087274-2693034
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 652 - Merchant Order ID: 702-6087274-2693034
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 688 - Merchant Order ID: 702-0811574-2918621
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 686 - Merchant Order ID: 702-0811574-2918621
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 687 - Merchant Order ID: 702-0811574-2918621
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 552 - Merchant Order ID: 702-1360021-8097850
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 553 - Merchant Order ID: 702-1360021-8097850
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 554 - Merchant Order ID: 702-1360021-8097850
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 646 - Merchant Order ID: 702-3386550-7613814
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.11,0.0,Row ID: 645 - Merchant Order ID: 702-3386550-7613814
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 644 - Merchant Order ID: 702-3386550-7613814
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 632 - Merchant Order ID: 701-7782297-9365851
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,0.33,Row ID: 633 - Merchant Order ID: 701-7782297-9365851
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 634 - Merchant Order ID: 701-7782297-9365851
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,0.33,Row ID: 636 - Merchant Order ID: 701-7782297-9365851
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 635 - Merchant Order ID: 701-7782297-9365851
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 542 - Merchant Order ID: 701-5686303-8520258
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,7.71,0.0,Row ID: 541 - Merchant Order ID: 701-5686303-8520258
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 540 - Merchant Order ID: 701-5686303-8520258
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,19.26,0.0,Row ID: 698 - Merchant Order ID: 701-9295145-9387418
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,119.98,Row ID: 696 - Merchant Order ID: 701-9295145-9387418
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,15.9,0.0,Row ID: 697 - Merchant Order ID: 701-9295145-9387418
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,3.93,Row ID: 525 - Merchant Order ID: 701-2041444-4685033
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,6.12,0.0,Row ID: 526 - Merchant Order ID: 701-2041444-4685033
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,34.99,Row ID: 524 - Merchant Order ID: 701-2041444-4685033
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,5.62,0.0,Row ID: 527 - Merchant Order ID: 701-2041444-4685033
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,3.93,Row ID: 528 - Merchant Order ID: 701-2041444-4685033
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,34.99,Row ID: 616 - Merchant Order ID: 701-1115558-3173825
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,6.12,0.0,Row ID: 617 - Merchant Order ID: 701-1115558-3173825
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,5.62,0.0,Row ID: 618 - Merchant Order ID: 701-1115558-3173825
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 672 - Merchant Order ID: 701-6362413-8363444
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 673 - Merchant Order ID: 701-6362413-8363444
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 674 - Merchant Order ID: 701-6362413-8363444
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 664 - Merchant Order ID: 701-9296145-4901841
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 666 - Merchant Order ID: 701-9296145-4901841
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 665 - Merchant Order ID: 701-9296145-4901841
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 518 - Merchant Order ID: 701-8839531-5257821
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.68,0.0,Row ID: 520 - Merchant Order ID: 701-8839531-5257821
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 521 - Merchant Order ID: 701-8839531-5257821
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,6.99,Row ID: 522 - Merchant Order ID: 701-8839531-5257821
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,6.99,Row ID: 519 - Merchant Order ID: 701-8839531-5257821
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 510 - Merchant Order ID: 702-2811907-9080251
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,7.95,0.0,Row ID: 509 - Merchant Order ID: 702-2811907-9080251
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 508 - Merchant Order ID: 702-2811907-9080251
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 556 - Merchant Order ID: 702-5622819-0220267
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 557 - Merchant Order ID: 702-5622819-0220267
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 558 - Merchant Order ID: 702-5622819-0220267
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 544 - Merchant Order ID: 701-2424884-2088212
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 546 - Merchant Order ID: 701-2424884-2088212
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.68,0.0,Row ID: 545 - Merchant Order ID: 701-2424884-2088212
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 564 - Merchant Order ID: 702-1395540-1257030
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.49,0.0,Row ID: 565 - Merchant Order ID: 702-1395540-1257030
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 566 - Merchant Order ID: 702-1395540-1257030
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 604 - Merchant Order ID: 701-9456164-6262637
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,2.94,Row ID: 603 - Merchant Order ID: 701-9456164-6262637
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 602 - Merchant Order ID: 701-9456164-6262637
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,2.94,Row ID: 600 - Merchant Order ID: 701-9456164-6262637
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,5.62,0.0,Row ID: 599 - Merchant Order ID: 701-9456164-6262637
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,6.12,0.0,Row ID: 598 - Merchant Order ID: 701-9456164-6262637
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,2.94,Row ID: 597 - Merchant Order ID: 701-9456164-6262637
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,34.99,Row ID: 596 - Merchant Order ID: 701-9456164-6262637
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,2.94,Row ID: 606 - Merchant Order ID: 701-9456164-6262637
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 605 - Merchant Order ID: 701-9456164-6262637
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,1.75,Row ID: 642 - Merchant Order ID: 702-4032382-4690607
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 641 - Merchant Order ID: 702-4032382-4690607
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 640 - Merchant Order ID: 702-4032382-4690607
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,1.75,Row ID: 639 - Merchant Order ID: 702-4032382-4690607
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 638 - Merchant Order ID: 702-4032382-4690607
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 620 - Merchant Order ID: 702-2480835-4383453
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.83,0.0,Row ID: 621 - Merchant Order ID: 702-2480835-4383453
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 622 - Merchant Order ID: 702-2480835-4383453
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 584 - Merchant Order ID: 702-3394645-2360215
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 590 - Merchant Order ID: 702-3394645-2360215
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 589 - Merchant Order ID: 702-3394645-2360215
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 588 - Merchant Order ID: 702-3394645-2360215
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 586 - Merchant Order ID: 702-3394645-2360215
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,7.71,0.0,Row ID: 585 - Merchant Order ID: 702-3394645-2360215
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,6.99,Row ID: 516 - Merchant Order ID: 702-6901587-2530629
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,5.62,0.0,Row ID: 515 - Merchant Order ID: 702-6901587-2530629
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,6.12,0.0,Row ID: 514 - Merchant Order ID: 702-6901587-2530629
+2025-09-13,24391894961,both,Amazon.ca Revenue,Order/Shipping,0.0,6.99,Row ID: 513 - Merchant Order ID: 702-6901587-2530629
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,34.99,Row ID: 512 - Merchant Order ID: 702-6901587-2530629
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 626 - Merchant Order ID: 702-2933845-5584241
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 624 - Merchant Order ID: 702-2933845-5584241
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 625 - Merchant Order ID: 702-2933845-5584241
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 537 - Merchant Order ID: 702-2261809-2070628
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 536 - Merchant Order ID: 702-2261809-2070628
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 538 - Merchant Order ID: 702-2261809-2070628
+2025-09-13,24391894961,both,Amazon.ca Clearing,Order/Principal,0.0,59.99,Row ID: 504 - Merchant Order ID: 701-7883608-0956253
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/Commission,9.63,0.0,Row ID: 506 - Merchant Order ID: 701-7883608-0956253
+2025-09-13,24391894961,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,8.25,0.0,Row ID: 505 - Merchant Order ID: 701-7883608-0956253
+2025-09-13,24391894961,both,Amazon.ca Clearing,Bank Deposit on 2025-09-13,5642.58,2539.66,Row ID: 211 - Merchant Order ID: nan
+2025-09-13,24391894961,both,Amazon Combined Tax Charged,Combined GST and PST charged on line # 306,0.0,42.32,Row ID: 306 - Merchant Order ID: nan
+2025-09-13,24391894961,both,Amazon Combined Tax Charged,Combined GST and PST charged on line # 496,0.0,51.89,Row ID: 496 - Merchant Order ID: nan
+2025-09-13,24391894961,both,Amazon Combined Tax Charged,Combined GST and PST charged on line # 700,0.0,60.05,Row ID: 700 - Merchant Order ID: nan

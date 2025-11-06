@@ -1,0 +1,17 @@
+﻿Date,Reference Number,Journal Type,GL_Account,Description,Debit,Credit,Notes
+2025-08-16,23874397121,both,Amazon.ca Clearing,Payable to Amazon,0.0,321.69,Row ID: 17 - Merchant Order ID: nan
+2025-08-16,23874397121,both,Amazon.ca Clearing,Successful charge,0.0,321.69,Row ID: 20 - Merchant Order ID: nan
+2025-08-16,23874397121,both,Amazon Account Fees,Subscription Fee,32.09,0.0,Row ID: 18 - Merchant Order ID: nan
+2025-08-16,23874397121,both,Amazon Advertising Expense,ServiceFee/Cost of Advertising/TaxAmount,1.16,0.0,Row ID: 19 - Merchant Order ID: nan
+2025-08-16,23874397121,both,Amazon.ca Revenue,Order/Shipping,0.0,6.99,Row ID: 12 - Merchant Order ID: 702-1101758-6751437
+2025-08-16,23874397121,both,Amazon.ca Clearing,Order/Principal,0.0,35.0,Row ID: 7 - Merchant Order ID: 702-1101758-6751437
+2025-08-16,23874397121,both,Amazon FBA Fulfillment Fees,Order/Commission,5.62,0.0,Row ID: 10 - Merchant Order ID: 702-1101758-6751437
+2025-08-16,23874397121,both,Amazon FBA Fulfillment Fees,Order/FBAPerUnitFulfillmentFee,6.12,0.0,Row ID: 9 - Merchant Order ID: 702-1101758-6751437
+2025-08-16,23874397121,both,Amazon.ca Revenue,Order/Shipping,0.0,6.99,Row ID: 8 - Merchant Order ID: 702-1101758-6751437
+2025-08-16,23874397121,both,Amazon FBA Fulfillment Fees,Order/DigitalServicesFee,0.17,0.0,Row ID: 11 - Merchant Order ID: 702-1101758-6751437
+2025-08-16,23874397121,both,Amazon.ca Clearing,Refund/Principal,0.0,60.0,Row ID: 13 - Merchant Order ID: 702-1278184-4976266
+2025-08-16,23874397121,both,Amazon FBA Fulfillment Fees,Refund/Commission,9.63,0.0,Row ID: 14 - Merchant Order ID: 702-1278184-4976266
+2025-08-16,23874397121,both,Amazon FBA Fulfillment Fees,Refund/RefundCommission,1.93,0.0,Row ID: 15 - Merchant Order ID: 702-1278184-4976266
+2025-08-16,23874397121,both,Amazon FBA Fulfillment Fees,Refund/DigitalServicesFee,0.29,0.0,Row ID: 16 - Merchant Order ID: 702-1278184-4976266
+2025-08-16,23874397121,both,Amazon.ca Clearing,Bank Deposit on 2025-08-16,695.49,0.0,Row ID: 5 - Merchant Order ID: nan
+2025-08-16,23874397121,both,Amazon Combined Tax Charged,Combined GST and PST charged on line # 19,0.0,0.14,Row ID: 19 - Merchant Order ID: nan

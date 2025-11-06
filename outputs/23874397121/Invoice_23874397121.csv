@@ -1,0 +1,2 @@
+﻿Invoice Date,Invoice Number,Invoice Status,Customer Name,SKU,Quantity,Item Price,Invoice Line Amount,Notes,Reference Number,row_id,merchant_order_id,Validation_Flag,settlement_id
+2025-08-14,AMZN6751437,Draft,Amazon.ca,SALTT15-ALLT,1.0,35.0,35.0,Order 702-1101758-6751437-23874397121_6,23874397121,6,702-1101758-6751437,Valid,23874397121

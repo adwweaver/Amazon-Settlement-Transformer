@@ -1,0 +1,7 @@
+settlement_id,has_journal,debits,credits,difference,balanced,error,has_invoices,has_payments,invoice_total,payment_total,invoice_count,payment_count,zoho_invoice_count,zoho_payment_count,zoho_invoice_total,zoho_payment_total,zoho_journal_exists,tracked_invoices,tracked_payments,tracked_journals,posted_invoices,posted_payments,posted_journals,all_checks_passed
+23874396421,True,32.09,32.09,0.0,False,,False,False,0.0,0.0,0,0,0,0,0.0,0.0,True,0,0,1,0,0,1,False
+23874397121,True,752.5,752.5,0.0,True,,True,True,35.0,35.0,1,1,1,1,35.0,35.0,True,52,52,42,52,1,42,True
+24288684721,True,3494.58,3494.58,15.25,False,,True,True,2195.25,2180.0,36,34,36,34,2195.25,2180.0,True,1476,41,28,1476,1,28,False
+24391894961,True,8927.89,8927.89,0.0,True,,True,True,5979.23,5979.23,104,104,104,104,5979.23,5979.23,True,4160,40,24,4160,1,23,True
+24495221541,True,13768.86,13768.86,86.58,False,,True,True,8485.03,8398.45,152,150,150,150,8398.45,8398.45,True,6080,40,23,6070,1,22,False
+24596907561,True,12978.59,12978.59,8.42,False,,True,True,8556.87,8548.45,143,143,142,142,8521.88,8513.46,True,4147,29,13,4118,1,12,False

@@ -1,0 +1,3408 @@
+{
+  "timestamp": "2025-11-03T20:26:39.782903",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1508 - Merchant Order ID: 702-9847544-0259420",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521059",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:26:41.111508",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1642 - Merchant Order ID: 701-6362929-0282634",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521075",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:26:42.422115",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1956 - Merchant Order ID: 701-9551718-0285060",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521091",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:26:43.742481",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1944 - Merchant Order ID: 702-5925337-0336257",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521107",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:26:45.034898",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 34.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1986 - Merchant Order ID: 702-1030602-0350661",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521123",
+        "amount_applied": 34.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:26:46.384065",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1572 - Merchant Order ID: 701-5447121-0382663",
+    "invoices": [
+      {
+        "invoice_id": "73985000000520763",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:26:47.743469",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1594 - Merchant Order ID: 702-0365478-0397002",
+    "invoices": [
+      {
+        "invoice_id": "73985000000520779",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:26:49.108263",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1828 - Merchant Order ID: 702-3803785-0408214",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521139",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:26:50.412021",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1960 - Merchant Order ID: 702-4521504-0414655",
+    "invoices": [
+      {
+        "invoice_id": "73985000000520795",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:26:51.751964",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 119.98,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1476 - Merchant Order ID: 701-4673173-0477801",
+    "invoices": [
+      {
+        "invoice_id": "73985000000520811",
+        "amount_applied": 119.98
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:26:58.092235",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 2064 - Merchant Order ID: 702-2800899-0478648",
+    "invoices": [
+      {
+        "invoice_id": "73985000000520831",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:26:59.446396",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1754 - Merchant Order ID: 701-5963071-0506661",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521155",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:27:00.973384",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1932 - Merchant Order ID: 702-0865922-0551449",
+    "invoices": [
+      {
+        "invoice_id": "73985000000520847",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:27:02.275982",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 34.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1672 - Merchant Order ID: 702-9960188-0656257",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521171",
+        "amount_applied": 34.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:27:03.590158",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 2108 - Merchant Order ID: 702-2546708-0658618",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521187",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:27:04.934912",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 34.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1786 - Merchant Order ID: 701-8277588-0771415",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521203",
+        "amount_applied": 34.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:27:06.275340",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1908 - Merchant Order ID: 702-5714090-0845817",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521219",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:27:07.607137",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1730 - Merchant Order ID: 701-2282778-1046653",
+    "invoices": [
+      {
+        "invoice_id": "73985000000520863",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:27:08.921762",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1878 - Merchant Order ID: 702-9942838-1063451",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521235",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:27:10.323830",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1566 - Merchant Order ID: 702-1644016-1187448",
+    "invoices": [
+      {
+        "invoice_id": "73985000000520879",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:27:16.637623",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 34.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1774 - Merchant Order ID: 702-9224232-1211437",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521251",
+        "amount_applied": 34.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:27:18.308646",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1500 - Merchant Order ID: 702-5616856-1234669",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521267",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:27:19.655866",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 34.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1558 - Merchant Order ID: 701-7946375-1260256",
+    "invoices": [
+      {
+        "invoice_id": "73985000000520895",
+        "amount_applied": 34.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:27:20.995181",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 2020 - Merchant Order ID: 701-7813229-1270630",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521283",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:27:22.355195",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1836 - Merchant Order ID: 702-2113288-1389065",
+    "invoices": [
+      {
+        "invoice_id": "73985000000520911",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:27:23.757467",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 34.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 2100 - Merchant Order ID: 702-5554083-1444267",
+    "invoices": [
+      {
+        "invoice_id": "73985000000520927",
+        "amount_applied": 34.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:27:25.032373",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 2074 - Merchant Order ID: 702-3051588-1667436",
+    "invoices": [
+      {
+        "invoice_id": "73985000000520943",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:27:26.430786",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1458 - Merchant Order ID: 701-7702389-1754644",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521299",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:27:27.753799",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1902 - Merchant Order ID: 701-8448186-1880201",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521315",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:27:29.119645",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 34.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 2112 - Merchant Order ID: 702-1567682-1957039",
+    "invoices": [
+      {
+        "invoice_id": "73985000000520959",
+        "amount_applied": 34.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:27:35.465623",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 2086 - Merchant Order ID: 701-9396647-2010638",
+    "invoices": [
+      {
+        "invoice_id": "73985000000520975",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:27:36.761708",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 34.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1436 - Merchant Order ID: 702-1320748-2054639",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521331",
+        "amount_applied": 34.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:27:38.076843",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 119.98,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1840 - Merchant Order ID: 701-8159137-2184218",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521347",
+        "amount_applied": 119.98
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:27:39.422359",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 2080 - Merchant Order ID: 702-3644823-2353866",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521363",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:27:40.771195",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 2024 - Merchant Order ID: 702-2257313-2354644",
+    "invoices": [
+      {
+        "invoice_id": "73985000000520991",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:27:42.106030",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1664 - Merchant Order ID: 701-2451484-2457844",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521379",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:27:43.479601",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1884 - Merchant Order ID: 702-9287018-2589845",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521395",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:27:44.822982",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1980 - Merchant Order ID: 702-5514242-2676242",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522007",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:27:46.144860",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1612 - Merchant Order ID: 701-4945765-2748237",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522023",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:27:47.510229",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 119.98,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1546 - Merchant Order ID: 701-9322945-2848216",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522039",
+        "amount_applied": 119.98
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:27:53.916549",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1718 - Merchant Order ID: 701-3099607-2863407",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522059",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:27:55.241411",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1576 - Merchant Order ID: 701-3632174-2963413",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522075",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:27:56.562039",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 34.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 2092 - Merchant Order ID: 701-8624041-3100225",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521411",
+        "amount_applied": 34.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:27:57.892749",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1888 - Merchant Order ID: 702-8922598-3115461",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522091",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:27:59.226684",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1590 - Merchant Order ID: 701-8117142-3124221",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522107",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:28:00.639447",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1846 - Merchant Order ID: 702-2236517-3149822",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521427",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:28:01.985373",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1668 - Merchant Order ID: 701-0176525-3253022",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521443",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:28:03.305428",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1972 - Merchant Order ID: 702-4641772-3303457",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521459",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:28:04.624234",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1676 - Merchant Order ID: 702-9870410-3310614",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521475",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:28:05.935305",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 34.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1432 - Merchant Order ID: 702-2805774-3413005",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522123",
+        "amount_applied": 34.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:28:12.248808",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1528 - Merchant Order ID: 702-3925304-3433023",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522139",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:28:13.562833",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1512 - Merchant Order ID: 702-1636682-3518636",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521491",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:28:14.901719",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1684 - Merchant Order ID: 701-0174523-3619461",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522155",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:28:16.323019",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1492 - Merchant Order ID: 701-7453684-3658626",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522171",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:28:17.704487",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1442 - Merchant Order ID: 701-5862806-3751426",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522187",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:28:19.038405",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1462 - Merchant Order ID: 702-7803292-3812211",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522203",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:28:20.460702",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1580 - Merchant Order ID: 702-1996529-3860211",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522219",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:28:21.807861",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 2058 - Merchant Order ID: 701-4226442-4034633",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521507",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:28:23.126395",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1554 - Merchant Order ID: 701-4132402-4049066",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522235",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:28:24.489427",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1780 - Merchant Order ID: 701-4106612-4294604",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521523",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:28:30.897830",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 34.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 2054 - Merchant Order ID: 701-5825429-4352236",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521539",
+        "amount_applied": 34.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:28:32.238911",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 34.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1680 - Merchant Order ID: 701-9397874-4370615",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522251",
+        "amount_applied": 34.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:28:33.604852",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 34.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 2016 - Merchant Order ID: 702-8790029-4497828",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521555",
+        "amount_applied": 34.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:28:34.991934",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 34.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1524 - Merchant Order ID: 702-7277529-4507460",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521571",
+        "amount_applied": 34.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:28:36.304901",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1648 - Merchant Order ID: 701-0480212-4514654",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521587",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:28:37.670531",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 34.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1622 - Merchant Order ID: 702-4499853-4569859",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522267",
+        "amount_applied": 34.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:28:39.024734",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1770 - Merchant Order ID: 701-6204323-4657856",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522283",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:28:40.411312",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 2068 - Merchant Order ID: 701-2638443-4671456",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521603",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:28:41.779245",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1504 - Merchant Order ID: 701-7227399-4688244",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521619",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:28:43.172154",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 2096 - Merchant Order ID: 701-9840033-4738660",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521635",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:28:49.460906",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1952 - Merchant Order ID: 702-7439455-4758606",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522299",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:28:50.789342",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1692 - Merchant Order ID: 702-4653098-5092255",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521651",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:28:52.223192",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 119.98,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1948 - Merchant Order ID: 701-5806300-5129827",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521683",
+        "amount_applied": 119.98
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:28:53.561382",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 2012 - Merchant Order ID: 702-7895789-5149832",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522315",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:28:54.894936",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 2050 - Merchant Order ID: 701-8089085-5270639",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522331",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:28:56.227561",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1744 - Merchant Order ID: 702-7532980-5303411",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521699",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:28:57.557208",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 34.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 2032 - Merchant Order ID: 701-9689974-5384266",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521715",
+        "amount_applied": 34.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:28:58.841339",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1924 - Merchant Order ID: 701-4064596-5564258",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522347",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:29:00.118724",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1470 - Merchant Order ID: 701-6735242-5611425",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521731",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:29:01.410080",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 34.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1976 - Merchant Order ID: 702-5495367-5665052",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521747",
+        "amount_applied": 34.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:29:07.735142",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 179.97,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1698 - Merchant Order ID: 701-9832900-5757822",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522363",
+        "amount_applied": 179.97
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:29:09.056959",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 179.97,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1802 - Merchant Order ID: 702-6819604-5787456",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522387",
+        "amount_applied": 179.97
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:29:10.450735",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1914 - Merchant Order ID: 702-9405697-5797868",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521763",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:29:11.772428",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 34.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1852 - Merchant Order ID: 701-9929542-6040252",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522411",
+        "amount_applied": 34.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:29:13.132459",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 34.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1532 - Merchant Order ID: 702-1485093-6053047",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522427",
+        "amount_applied": 34.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:29:14.479307",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1518 - Merchant Order ID: 701-0694752-6106620",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522443",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:29:15.883832",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 34.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1604 - Merchant Order ID: 702-3454532-6126618",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522459",
+        "amount_applied": 34.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:29:17.267350",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 34.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1896 - Merchant Order ID: 702-2607638-6361000",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521779",
+        "amount_applied": 34.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:29:18.558716",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1688 - Merchant Order ID: 701-8075959-6501004",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522475",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:29:19.885166",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 34.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 2036 - Merchant Order ID: 702-6828521-6572229",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522491",
+        "amount_applied": 34.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:29:26.195611",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1618 - Merchant Order ID: 702-1328442-6645035",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521795",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:29:27.487922",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 119.98,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1758 - Merchant Order ID: 702-1328442-6645035",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521795",
+        "amount_applied": 119.98
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:29:28.858862",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 34.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1928 - Merchant Order ID: 701-3374298-6671424",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521819",
+        "amount_applied": 34.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:29:30.200939",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1862 - Merchant Order ID: 701-6611652-6683430",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522507",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:29:31.509263",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 119.98,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1794 - Merchant Order ID: 701-1370379-6727421",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521835",
+        "amount_applied": 119.98
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:29:32.869644",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1868 - Merchant Order ID: 702-4123415-6729807",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521851",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:29:34.209600",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1940 - Merchant Order ID: 701-8304243-6766609",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521867",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:29:35.520026",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 2104 - Merchant Order ID: 702-2182287-6767429",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522523",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:29:36.855369",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1722 - Merchant Order ID: 701-9882223-6862652",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522539",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:29:38.231357",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1748 - Merchant Order ID: 701-0999334-6926639",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522555",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:29:44.574045",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1990 - Merchant Order ID: 701-6567300-7071459",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522571",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:29:46.012519",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1466 - Merchant Order ID: 702-5990366-7116204",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522587",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:29:47.359468",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 2046 - Merchant Order ID: 701-7502246-7133822",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521883",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:29:48.684303",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1892 - Merchant Order ID: 702-2307267-7145054",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521899",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:29:49.999781",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1964 - Merchant Order ID: 701-7418659-7229846",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522603",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:29:51.394908",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1714 - Merchant Order ID: 701-9239826-7248211",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522619",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:29:52.756462",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1820 - Merchant Order ID: 702-0155548-7309074",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522635",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:29:54.077353",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1450 - Merchant Order ID: 701-8176549-7372200",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521915",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:29:55.441722",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 34.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1562 - Merchant Order ID: 701-8673700-7492268",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521931",
+        "amount_applied": 34.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:29:56.800269",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1766 - Merchant Order ID: 701-5560901-7658647",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522651",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:30:03.241066",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 34.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1824 - Merchant Order ID: 702-9592967-7681015",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521947",
+        "amount_applied": 34.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:30:04.559993",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1790 - Merchant Order ID: 701-6622831-7703462",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521963",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:30:05.858959",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 2040 - Merchant Order ID: 702-0114532-7859443",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521979",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:30:07.236999",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1832 - Merchant Order ID: 701-2698051-7911412",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522667",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:30:08.553906",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 2008 - Merchant Order ID: 701-1875635-7937815",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522683",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:30:09.897309",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 34.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1920 - Merchant Order ID: 701-5691205-8046643",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522699",
+        "amount_applied": 34.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:30:11.252127",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1542 - Merchant Order ID: 702-0034260-8120255",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522715",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:30:12.568378",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 34.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1740 - Merchant Order ID: 702-4265375-8331458",
+    "invoices": [
+      {
+        "invoice_id": "73985000000521995",
+        "amount_applied": 34.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:30:13.923106",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1710 - Merchant Order ID: 702-2230641-8454624",
+    "invoices": [
+      {
+        "invoice_id": "73985000000523011",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:30:15.240387",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1536 - Merchant Order ID: 701-8088499-8489020",
+    "invoices": [
+      {
+        "invoice_id": "73985000000523027",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:30:21.576939",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1496 - Merchant Order ID: 701-5439812-8569065",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522731",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:30:22.907931",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1968 - Merchant Order ID: 701-4462888-8648220",
+    "invoices": [
+      {
+        "invoice_id": "73985000000523043",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:30:24.266880",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1656 - Merchant Order ID: 701-9043487-8655404",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522747",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:30:25.574084",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1454 - Merchant Order ID: 702-2380778-8748265",
+    "invoices": [
+      {
+        "invoice_id": "73985000000523059",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:30:26.969430",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 2002 - Merchant Order ID: 701-7685979-8823443",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522763",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:30:28.354283",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 119.98,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1626 - Merchant Order ID: 702-9332461-8896217",
+    "invoices": [
+      {
+        "invoice_id": "73985000000523075",
+        "amount_applied": 119.98
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:30:29.718649",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1634 - Merchant Order ID: 702-8806119-8905857",
+    "invoices": [
+      {
+        "invoice_id": "73985000000523095",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:30:31.050854",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1600 - Merchant Order ID: 702-9138742-9155436",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522779",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:30:32.396408",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1638 - Merchant Order ID: 702-6340041-9165048",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522795",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:30:38.735481",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1872 - Merchant Order ID: 701-3038822-9175458",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522811",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:30:40.062306",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 34.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1798 - Merchant Order ID: 702-5737325-9189046",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522827",
+        "amount_applied": 34.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:30:41.431853",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1726 - Merchant Order ID: 701-5271701-9250617",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522843",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:30:42.780956",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 119.98,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1994 - Merchant Order ID: 702-6875636-9311424",
+    "invoices": [
+      {
+        "invoice_id": "73985000000523111",
+        "amount_applied": 119.98
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:30:44.202991",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1936 - Merchant Order ID: 702-3405983-9332252",
+    "invoices": [
+      {
+        "invoice_id": "73985000000523131",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:30:45.603494",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 34.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1660 - Merchant Order ID: 701-0174436-9335477",
+    "invoices": [
+      {
+        "invoice_id": "73985000000523147",
+        "amount_applied": 34.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:30:46.889564",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1858 - Merchant Order ID: 702-2241812-9426615",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522859",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:30:48.221663",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1586 - Merchant Order ID: 701-8479405-9613058",
+    "invoices": [
+      {
+        "invoice_id": "73985000000523163",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:30:49.607924",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1488 - Merchant Order ID: 702-0266111-9699464",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522875",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:30:50.938092",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1484 - Merchant Order ID: 701-8257065-9775446",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522891",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:30:57.267983",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1446 - Merchant Order ID: 701-5163304-9830619",
+    "invoices": [
+      {
+        "invoice_id": "73985000000523179",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:30:58.623122",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1652 - Merchant Order ID: 702-0929963-9889819",
+    "invoices": [
+      {
+        "invoice_id": "73985000000522907",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================
+{
+  "timestamp": "2025-11-03T20:31:00.000449",
+  "error_code": 24016,
+  "error_message": "The amount entered is more than the balance due for the selected invoices.",
+  "payment_data": {
+    "customer_id": "73985000000037119",
+    "payment_mode": "Direct Deposit",
+    "amount": 59.99,
+    "date": "2025-10-11",
+    "reference_number": 24596907561,
+    "description": "Row ID: 1736 - Merchant Order ID: 701-4304090-9953863",
+    "invoices": [
+      {
+        "invoice_id": "73985000000523195",
+        "amount_applied": 59.99
+      }
+    ]
+  },
+  "zoho_response": {
+    "code": 24016,
+    "message": "The amount entered is more than the balance due for the selected invoices."
+  }
+}
+================================================================================

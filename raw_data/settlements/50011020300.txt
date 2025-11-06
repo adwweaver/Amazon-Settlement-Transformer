@@ -1,0 +1,6 @@
+settlement-id	settlement-start-date	settlement-end-date	deposit-date	total-amount	currency	transaction-type	order-id	merchant-order-id	adjustment-id	shipment-id	marketplace-name	shipment-fee-type	shipment-fee-amount	order-fee-type	order-fee-amount	fulfillment-id	posted-date	order-item-code	merchant-order-item-id	merchant-adjustment-item-id	sku	quantity-purchased	price-type	price-amount	item-related-fee-type	item-related-fee-amount	misc-fee-amount	other-fee-amount	other-fee-reason-description	direct-payment-type	direct-payment-amount	other-amount
+23874396421	2025-06-05T22:07:18+00:00	2025-07-31T22:07:18+00:00	2025-08-02T22:07:18+00:00	-321.69	CAD																											
+23874396421						Inbound Transportation Fee				FBA18ZN0LT90							2025-07-31T20:13:08+00:00															-321.69
+23874396421						Subscription Fee											2025-06-06T23:04:51+00:00															-32.09
+23874396421						Successful charge											2025-06-06T23:09:23+00:00															32.09    
+

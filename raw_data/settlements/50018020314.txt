@@ -1,0 +1,18 @@
+settlement-id	settlement-start-date	settlement-end-date	deposit-date	total-amount	currency	transaction-type	order-id	merchant-order-id	adjustment-id	shipment-id	marketplace-name	shipment-fee-type	shipment-fee-amount	order-fee-type	order-fee-amount	fulfillment-id	posted-date	order-item-code	merchant-order-item-id	merchant-adjustment-item-id	sku	quantity-purchased	price-type	price-amount	item-related-fee-type	item-related-fee-amount	misc-fee-amount	other-fee-amount	other-fee-reason-description	promotion-id	promotion-type	promotion-amount	direct-payment-type	direct-payment-amount	other-amount
+23874397121	2025-07-31T22:07:18+00:00	2025-08-14T22:07:18+00:00	2025-08-16T22:07:18+00:00	-62.31	CAD																														
+23874397121						Order	702-1101758-6751437	702-1101758-6751437		BvxpJp5Yp	Amazon.ca					AFN	2025-08-14T06:23:59+00:00	135844999381281			SALTT15-ALLT	1													
+23874397121						Order	702-1101758-6751437	702-1101758-6751437		BvxpJp5Yp	Amazon.ca					AFN	2025-08-14T06:23:59+00:00	135844999381281			SALTT15-ALLT		Principal	35.00											
+23874397121						Order	702-1101758-6751437	702-1101758-6751437		BvxpJp5Yp	Amazon.ca					AFN	2025-08-14T06:23:59+00:00	135844999381281			SALTT15-ALLT		Shipping	6.99											
+23874397121						Order	702-1101758-6751437	702-1101758-6751437		BvxpJp5Yp	Amazon.ca					AFN	2025-08-14T06:23:59+00:00	135844999381281			SALTT15-ALLT				FBAPerUnitFulfillmentFee	-6.12									
+23874397121						Order	702-1101758-6751437	702-1101758-6751437		BvxpJp5Yp	Amazon.ca					AFN	2025-08-14T06:23:59+00:00	135844999381281			SALTT15-ALLT				Commission	-5.62									
+23874397121						Order	702-1101758-6751437	702-1101758-6751437		BvxpJp5Yp	Amazon.ca					AFN	2025-08-14T06:23:59+00:00	135844999381281			SALTT15-ALLT				DigitalServicesFee	-0.17									
+23874397121						Order	702-1101758-6751437	702-1101758-6751437		BvxpJp5Yp	Amazon.ca					AFN	2025-08-14T06:23:59+00:00	135844999381281			SALTT15-ALLT										Shipping	-6.99			
+23874397121						Refund	702-1278184-4976266	702-1278184-4976266	amzn1:crow:0UcGz5LNTCm+rGIQEkAv5g		Amazon.ca					AFN	2025-08-14T20:59:25+00:00	135860969457081		1754546548001862332	SALTT30-MELN		Principal	-60.00											
+23874397121						Refund	702-1278184-4976266	702-1278184-4976266	amzn1:crow:0UcGz5LNTCm+rGIQEkAv5g		Amazon.ca					AFN	2025-08-14T20:59:25+00:00	135860969457081		1754546548001862332	SALTT30-MELN				Commission	9.63									
+23874397121						Refund	702-1278184-4976266	702-1278184-4976266	amzn1:crow:0UcGz5LNTCm+rGIQEkAv5g		Amazon.ca					AFN	2025-08-14T20:59:25+00:00	135860969457081		1754546548001862332	SALTT30-MELN				RefundCommission	-1.93									
+23874397121						Refund	702-1278184-4976266	702-1278184-4976266	amzn1:crow:0UcGz5LNTCm+rGIQEkAv5g		Amazon.ca					AFN	2025-08-14T20:59:25+00:00	135860969457081		1754546548001862332	SALTT30-MELN				DigitalServicesFee	0.29									
+23874397121						Payable to Amazon											2025-07-31T22:07:18+00:00																		-321.69
+23874397121						Subscription Fee											2025-08-06T04:09:26+00:00																		-32.09
+23874397121						ServiceFee											2025-08-13T23:50:56+00:00								Cost of Advertising	-1.16		-0.14	TaxAmount						
+23874397121						Successful charge											2025-07-31T23:26:48+00:00																		321.69    
+

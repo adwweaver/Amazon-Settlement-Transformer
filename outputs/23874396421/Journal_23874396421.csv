@@ -1,0 +1,5 @@
+﻿Date,Reference Number,Journal Type,GL_Account,Description,Debit,Credit,Notes
+2025-08-02,23874396421,both,Amazon Account Fees,Subscription Fee,32.09,0.0,Row ID: 3 - Merchant Order ID: nan
+2025-08-02,23874396421,both,Amazon.ca Clearing,Successful charge,0.0,32.09,Row ID: 4 - Merchant Order ID: nan
+2025-08-02,23874396421,both,Amazon Inbound Freight Charges,Inbound Transportation Fee,321.69,0.0,Row ID: 2 - Merchant Order ID: nan
+2025-08-02,23874396421,both,Amazon.ca Clearing,Bank Deposit on 2025-08-02,-321.69,0.0,Row ID: 1 - Merchant Order ID: nan

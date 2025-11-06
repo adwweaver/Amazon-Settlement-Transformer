@@ -1,0 +1,286 @@
+2025-10-26 19:12:42,929 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:12:44,691 - zoho_sync - WARNING - Settlement 23874396421 already exists in Zoho (ID: 73985000000099004)
+2025-10-26 19:12:44,692 - zoho_sync - INFO - Skipping duplicate settlement 23874396421
+2025-10-26 19:12:44,711 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:12:46,246 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:12:46,247 - zoho_sync - INFO - Creating journal entry for settlement 23874397121
+2025-10-26 19:12:47,264 - zoho_sync - ERROR - API request failed: {'code': 21004, 'message': "The Debits and Credits do not match. Please make sure they're equal."}
+2025-10-26 19:12:47,269 - zoho_sync - ERROR - Error creating journal entry: API error: The Debits and Credits do not match. Please make sure they're equal.
+2025-10-26 19:12:47,325 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:12:48,999 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:12:49,000 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:12:49,001 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:12:49,003 - zoho_sync - INFO - Creating journal entry for settlement 24288684721
+2025-10-26 19:12:49,974 - zoho_sync - ERROR - API request failed: {'code': 21004, 'message': "The Debits and Credits do not match. Please make sure they're equal."}
+2025-10-26 19:12:49,975 - zoho_sync - ERROR - Error creating journal entry: API error: The Debits and Credits do not match. Please make sure they're equal.
+2025-10-26 19:12:50,032 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:12:51,772 - zoho_sync - WARNING - No mapping for account: Amazon Storage Expense
+2025-10-26 19:12:51,790 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:12:51,791 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:12:51,791 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:12:51,792 - zoho_sync - INFO - Creating journal entry for settlement 24391894961
+2025-10-26 19:12:53,061 - zoho_sync - ERROR - API request failed: {'code': 21004, 'message': "The Debits and Credits do not match. Please make sure they're equal."}
+2025-10-26 19:12:53,062 - zoho_sync - ERROR - Error creating journal entry: API error: The Debits and Credits do not match. Please make sure they're equal.
+2025-10-26 19:12:53,112 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:12:54,772 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:12:54,773 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:12:54,773 - zoho_sync - INFO - Creating journal entry for settlement 24495221541
+2025-10-26 19:12:56,175 - zoho_sync - ERROR - API request failed: {'code': 21004, 'message': "The Debits and Credits do not match. Please make sure they're equal."}
+2025-10-26 19:12:56,176 - zoho_sync - ERROR - Error creating journal entry: API error: The Debits and Credits do not match. Please make sure they're equal.
+2025-10-26 19:12:56,237 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:12:58,037 - zoho_sync - WARNING - No mapping for account: Amazon Storage Expense
+2025-10-26 19:12:58,047 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:12:58,048 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:12:58,048 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:12:58,049 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:12:58,049 - zoho_sync - INFO - Creating journal entry for settlement 24596907561
+2025-10-26 19:12:59,532 - zoho_sync - ERROR - API request failed: {'code': 21004, 'message': "The Debits and Credits do not match. Please make sure they're equal."}
+2025-10-26 19:12:59,533 - zoho_sync - ERROR - Error creating journal entry: API error: The Debits and Credits do not match. Please make sure they're equal.
+2025-10-26 19:12:59,556 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:13:01,301 - zoho_sync - WARNING - Settlement 23874396421 already exists in Zoho (ID: 73985000000099004)
+2025-10-26 19:13:01,303 - zoho_sync - INFO - Skipping duplicate settlement 23874396421
+2025-10-26 19:13:01,325 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:13:03,122 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:13:03,123 - zoho_sync - INFO - Creating journal entry for settlement 23874397121
+2025-10-26 19:13:03,932 - zoho_sync - ERROR - API request failed: {'code': 21004, 'message': "The Debits and Credits do not match. Please make sure they're equal."}
+2025-10-26 19:13:03,933 - zoho_sync - ERROR - Error creating journal entry: API error: The Debits and Credits do not match. Please make sure they're equal.
+2025-10-26 19:13:03,958 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:13:05,796 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:13:05,797 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:13:05,797 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:13:05,798 - zoho_sync - INFO - Creating journal entry for settlement 24288684721
+2025-10-26 19:13:06,725 - zoho_sync - ERROR - API request failed: {'code': 21004, 'message': "The Debits and Credits do not match. Please make sure they're equal."}
+2025-10-26 19:13:06,726 - zoho_sync - ERROR - Error creating journal entry: API error: The Debits and Credits do not match. Please make sure they're equal.
+2025-10-26 19:13:06,755 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:13:08,506 - zoho_sync - WARNING - No mapping for account: Amazon Storage Expense
+2025-10-26 19:13:08,535 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:13:08,536 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:13:08,537 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:13:08,538 - zoho_sync - INFO - Creating journal entry for settlement 24391894961
+2025-10-26 19:13:09,698 - zoho_sync - ERROR - API request failed: {'code': 21004, 'message': "The Debits and Credits do not match. Please make sure they're equal."}
+2025-10-26 19:13:09,699 - zoho_sync - ERROR - Error creating journal entry: API error: The Debits and Credits do not match. Please make sure they're equal.
+2025-10-26 19:13:09,729 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:13:10,451 - zoho_sync - ERROR - Error checking existing journal: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:13:10,521 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:13:10,521 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:13:10,522 - zoho_sync - INFO - Creating journal entry for settlement 24495221541
+2025-10-26 19:13:11,287 - zoho_sync - ERROR - Error creating journal entry: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:13:11,313 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:13:12,089 - zoho_sync - ERROR - Error checking existing journal: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:13:12,166 - zoho_sync - WARNING - No mapping for account: Amazon Storage Expense
+2025-10-26 19:13:12,175 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:13:12,175 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:13:12,176 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:13:12,176 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:13:12,176 - zoho_sync - INFO - Creating journal entry for settlement 24596907561
+2025-10-26 19:13:12,801 - zoho_sync - ERROR - Error creating journal entry: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:13:12,817 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:13:13,502 - zoho_sync - ERROR - Error checking existing journal: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:13:13,509 - zoho_sync - INFO - Creating journal entry for settlement 23874396421
+2025-10-26 19:13:14,245 - zoho_sync - ERROR - Error creating journal entry: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:13:14,262 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:13:15,115 - zoho_sync - ERROR - Error checking existing journal: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:13:15,125 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:13:15,126 - zoho_sync - INFO - Creating journal entry for settlement 23874397121
+2025-10-26 19:13:15,918 - zoho_sync - ERROR - Error creating journal entry: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:13:15,941 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:13:16,651 - zoho_sync - ERROR - Error checking existing journal: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:13:16,687 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:13:16,689 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:13:16,689 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:13:16,690 - zoho_sync - INFO - Creating journal entry for settlement 24288684721
+2025-10-26 19:13:17,481 - zoho_sync - ERROR - Error creating journal entry: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:13:17,499 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:13:18,245 - zoho_sync - ERROR - Error checking existing journal: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:13:18,268 - zoho_sync - WARNING - No mapping for account: Amazon Storage Expense
+2025-10-26 19:13:18,289 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:13:18,289 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:13:18,290 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:13:18,291 - zoho_sync - INFO - Creating journal entry for settlement 24391894961
+2025-10-26 19:13:19,093 - zoho_sync - ERROR - Error creating journal entry: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:13:19,106 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:13:19,823 - zoho_sync - ERROR - Error checking existing journal: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:13:19,920 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:13:19,920 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:13:19,921 - zoho_sync - INFO - Creating journal entry for settlement 24495221541
+2025-10-26 19:13:20,698 - zoho_sync - ERROR - Error creating journal entry: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:13:20,710 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:13:21,479 - zoho_sync - ERROR - Error checking existing journal: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:13:21,512 - zoho_sync - WARNING - No mapping for account: Amazon Storage Expense
+2025-10-26 19:13:21,518 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:13:21,519 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:13:21,519 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:13:21,520 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:13:21,520 - zoho_sync - INFO - Creating journal entry for settlement 24596907561
+2025-10-26 19:13:22,148 - zoho_sync - ERROR - Error creating journal entry: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:13:22,171 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:13:22,966 - zoho_sync - ERROR - Error checking existing journal: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:13:22,973 - zoho_sync - INFO - Creating journal entry for settlement 23874396421
+2025-10-26 19:13:23,688 - zoho_sync - ERROR - Error creating journal entry: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:13:23,709 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:13:24,445 - zoho_sync - ERROR - Error checking existing journal: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:13:24,451 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:13:24,452 - zoho_sync - INFO - Creating journal entry for settlement 23874397121
+2025-10-26 19:13:25,091 - zoho_sync - ERROR - Error creating journal entry: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:13:25,120 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:13:25,847 - zoho_sync - ERROR - Error checking existing journal: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:13:25,874 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:13:25,875 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:13:25,876 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:13:25,876 - zoho_sync - INFO - Creating journal entry for settlement 24288684721
+2025-10-26 19:13:26,631 - zoho_sync - ERROR - Error creating journal entry: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:13:26,642 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:23:39,462 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:23:41,068 - zoho_sync - WARNING - Settlement 23874396421 already exists in Zoho (ID: 73985000000099004)
+2025-10-26 19:23:41,070 - zoho_sync - INFO - Skipping duplicate settlement 23874396421
+2025-10-26 19:23:41,082 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:23:42,484 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:23:42,485 - zoho_sync - INFO - Creating journal entry for settlement 23874397121
+2025-10-26 19:23:43,357 - zoho_sync - ERROR - API request failed: {'code': 21004, 'message': "The Debits and Credits do not match. Please make sure they're equal."}
+2025-10-26 19:23:43,358 - zoho_sync - ERROR - Error creating journal entry: API error: The Debits and Credits do not match. Please make sure they're equal.
+2025-10-26 19:23:43,374 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:23:44,851 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:23:44,853 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:23:44,854 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:23:44,855 - zoho_sync - INFO - Creating journal entry for settlement 24288684721
+2025-10-26 19:23:45,749 - zoho_sync - ERROR - API request failed: {'code': 21004, 'message': "The Debits and Credits do not match. Please make sure they're equal."}
+2025-10-26 19:23:45,749 - zoho_sync - ERROR - Error creating journal entry: API error: The Debits and Credits do not match. Please make sure they're equal.
+2025-10-26 19:23:45,765 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:23:47,307 - zoho_sync - WARNING - No mapping for account: Amazon Storage Expense
+2025-10-26 19:23:47,329 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:23:47,329 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:23:47,330 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:23:47,330 - zoho_sync - INFO - Creating journal entry for settlement 24391894961
+2025-10-26 19:23:48,466 - zoho_sync - ERROR - API request failed: {'code': 21004, 'message': "The Debits and Credits do not match. Please make sure they're equal."}
+2025-10-26 19:23:48,466 - zoho_sync - ERROR - Error creating journal entry: API error: The Debits and Credits do not match. Please make sure they're equal.
+2025-10-26 19:23:48,484 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:23:50,198 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:23:50,198 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:23:50,199 - zoho_sync - INFO - Creating journal entry for settlement 24495221541
+2025-10-26 19:23:51,468 - zoho_sync - ERROR - API request failed: {'code': 21004, 'message': "The Debits and Credits do not match. Please make sure they're equal."}
+2025-10-26 19:23:51,470 - zoho_sync - ERROR - Error creating journal entry: API error: The Debits and Credits do not match. Please make sure they're equal.
+2025-10-26 19:23:51,492 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:23:53,023 - zoho_sync - WARNING - No mapping for account: Amazon Storage Expense
+2025-10-26 19:23:53,037 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:23:53,037 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:23:53,038 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:23:53,038 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:23:53,039 - zoho_sync - INFO - Creating journal entry for settlement 24596907561
+2025-10-26 19:23:54,310 - zoho_sync - ERROR - API request failed: {'code': 21004, 'message': "The Debits and Credits do not match. Please make sure they're equal."}
+2025-10-26 19:23:54,311 - zoho_sync - ERROR - Error creating journal entry: API error: The Debits and Credits do not match. Please make sure they're equal.
+2025-10-26 19:23:54,332 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:23:55,795 - zoho_sync - WARNING - Settlement 23874396421 already exists in Zoho (ID: 73985000000099004)
+2025-10-26 19:23:55,796 - zoho_sync - INFO - Skipping duplicate settlement 23874396421
+2025-10-26 19:23:55,813 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:23:57,295 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:23:57,296 - zoho_sync - INFO - Creating journal entry for settlement 23874397121
+2025-10-26 19:23:58,096 - zoho_sync - ERROR - API request failed: {'code': 21004, 'message': "The Debits and Credits do not match. Please make sure they're equal."}
+2025-10-26 19:23:58,097 - zoho_sync - ERROR - Error creating journal entry: API error: The Debits and Credits do not match. Please make sure they're equal.
+2025-10-26 19:23:58,116 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:23:59,606 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:23:59,607 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:23:59,608 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:23:59,609 - zoho_sync - INFO - Creating journal entry for settlement 24288684721
+2025-10-26 19:24:00,638 - zoho_sync - ERROR - API request failed: {'code': 21004, 'message': "The Debits and Credits do not match. Please make sure they're equal."}
+2025-10-26 19:24:00,638 - zoho_sync - ERROR - Error creating journal entry: API error: The Debits and Credits do not match. Please make sure they're equal.
+2025-10-26 19:24:00,657 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:24:02,195 - zoho_sync - WARNING - No mapping for account: Amazon Storage Expense
+2025-10-26 19:24:02,224 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:02,225 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:02,226 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:02,227 - zoho_sync - INFO - Creating journal entry for settlement 24391894961
+2025-10-26 19:24:03,353 - zoho_sync - ERROR - API request failed: {'code': 21004, 'message': "The Debits and Credits do not match. Please make sure they're equal."}
+2025-10-26 19:24:03,354 - zoho_sync - ERROR - Error creating journal entry: API error: The Debits and Credits do not match. Please make sure they're equal.
+2025-10-26 19:24:03,378 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:24:04,123 - zoho_sync - ERROR - Error checking existing journal: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:24:04,193 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:04,194 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:04,195 - zoho_sync - INFO - Creating journal entry for settlement 24495221541
+2025-10-26 19:24:04,848 - zoho_sync - ERROR - Error creating journal entry: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:24:04,874 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:24:05,534 - zoho_sync - ERROR - Error checking existing journal: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:24:05,584 - zoho_sync - WARNING - No mapping for account: Amazon Storage Expense
+2025-10-26 19:24:05,596 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:05,596 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:05,596 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:05,597 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:05,597 - zoho_sync - INFO - Creating journal entry for settlement 24596907561
+2025-10-26 19:24:06,231 - zoho_sync - ERROR - Error creating journal entry: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:24:06,244 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:24:06,889 - zoho_sync - ERROR - Error checking existing journal: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:24:06,894 - zoho_sync - INFO - Creating journal entry for settlement 23874396421
+2025-10-26 19:24:07,555 - zoho_sync - ERROR - Error creating journal entry: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:24:07,574 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:24:08,295 - zoho_sync - ERROR - Error checking existing journal: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:24:08,299 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:08,299 - zoho_sync - INFO - Creating journal entry for settlement 23874397121
+2025-10-26 19:24:08,963 - zoho_sync - ERROR - Error creating journal entry: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:24:08,979 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:24:09,644 - zoho_sync - ERROR - Error checking existing journal: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:24:09,668 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:09,670 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:09,671 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:09,671 - zoho_sync - INFO - Creating journal entry for settlement 24288684721
+2025-10-26 19:24:10,310 - zoho_sync - ERROR - Error creating journal entry: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:24:10,337 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:24:10,987 - zoho_sync - ERROR - Error checking existing journal: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:24:11,024 - zoho_sync - WARNING - No mapping for account: Amazon Storage Expense
+2025-10-26 19:24:11,040 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:11,041 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:11,041 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:11,042 - zoho_sync - INFO - Creating journal entry for settlement 24391894961
+2025-10-26 19:24:11,681 - zoho_sync - ERROR - Error creating journal entry: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:24:11,700 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:24:12,436 - zoho_sync - ERROR - Error checking existing journal: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:24:12,496 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:12,497 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:12,497 - zoho_sync - INFO - Creating journal entry for settlement 24495221541
+2025-10-26 19:24:13,140 - zoho_sync - ERROR - Error creating journal entry: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:24:13,149 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:24:13,798 - zoho_sync - ERROR - Error checking existing journal: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:24:13,838 - zoho_sync - WARNING - No mapping for account: Amazon Storage Expense
+2025-10-26 19:24:13,846 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:13,847 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:13,847 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:13,847 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:13,848 - zoho_sync - INFO - Creating journal entry for settlement 24596907561
+2025-10-26 19:24:14,486 - zoho_sync - ERROR - Error creating journal entry: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:24:14,502 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:24:15,231 - zoho_sync - ERROR - Error checking existing journal: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:24:15,233 - zoho_sync - INFO - Creating journal entry for settlement 23874396421
+2025-10-26 19:24:15,879 - zoho_sync - ERROR - Error creating journal entry: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:24:15,889 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:24:16,523 - zoho_sync - ERROR - Error checking existing journal: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:24:16,532 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:16,533 - zoho_sync - INFO - Creating journal entry for settlement 23874397121
+2025-10-26 19:24:17,205 - zoho_sync - ERROR - Error creating journal entry: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:24:17,214 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:24:17,897 - zoho_sync - ERROR - Error checking existing journal: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:24:17,913 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:17,913 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:17,914 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:17,914 - zoho_sync - INFO - Creating journal entry for settlement 24288684721
+2025-10-26 19:24:18,597 - zoho_sync - ERROR - Error creating journal entry: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:24:18,616 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:24:19,307 - zoho_sync - ERROR - Error checking existing journal: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:24:19,344 - zoho_sync - WARNING - No mapping for account: Amazon Storage Expense
+2025-10-26 19:24:19,362 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:19,362 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:19,363 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:19,363 - zoho_sync - INFO - Creating journal entry for settlement 24391894961
+2025-10-26 19:24:20,005 - zoho_sync - ERROR - Error creating journal entry: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:24:20,023 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:24:20,695 - zoho_sync - ERROR - Error checking existing journal: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:24:20,751 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:20,752 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:20,753 - zoho_sync - INFO - Creating journal entry for settlement 24495221541
+2025-10-26 19:24:21,448 - zoho_sync - ERROR - Error creating journal entry: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:24:21,466 - zoho_sync - INFO - Zoho Books client initialized for CA data center
+2025-10-26 19:24:22,182 - zoho_sync - ERROR - Error checking existing journal: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
+2025-10-26 19:24:22,272 - zoho_sync - WARNING - No mapping for account: Amazon Storage Expense
+2025-10-26 19:24:22,288 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:22,289 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:22,290 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:22,290 - zoho_sync - WARNING - No mapping for account: Amazon Combined Tax Charged
+2025-10-26 19:24:22,291 - zoho_sync - INFO - Creating journal entry for settlement 24596907561
+2025-10-26 19:24:22,976 - zoho_sync - ERROR - Error creating journal entry: Token refresh failed: {'error_description': 'You have made too many requests continuously. Please try again after some time.', 'error': 'Access Denied', 'status': 'failure'}
